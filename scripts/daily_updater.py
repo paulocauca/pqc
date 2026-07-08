@@ -271,8 +271,8 @@ def update_repo(day_str, date_str, topic_en, topic_pt, file_name_prefix, categor
     with open(readme_path, "w", encoding="utf-8") as f:
         f.write(readme_content)
 
-    # 4. Push to Git
-    print("Pushing to GitHub...")
+    # 4. Push to Git and Merge via PR
+    print("Pushing to GitHub and Merging via PR...")
     # Get GITHUB_TOKEN
     env_path = "/home/rycz/.hermes/.env"
     token = ""
@@ -284,23 +284,112 @@ def update_repo(day_str, date_str, topic_en, topic_pt, file_name_prefix, categor
                 token = m.group(1)
                 
     if token:
-        # Secure git authentication using token
-        repo_url = f"https://x-access-token:{token}@github.com/paulocauca/pqc.git"
-        # Run git config, add, commit, push
+        import urllib.request
+        import json
+        
+        # Configure user locally
         subprocess.run(["git", "-C", repo_dir, "config", "user.name", "Paulo Cauca"])
         subprocess.run(["git", "-C", repo_dir, "config", "user.email", "paulocauca@gmail.com"])
-        subprocess.run(["git", "-C", repo_dir, "add", "."])
-        subprocess.run(["git", "-C", repo_dir, "commit", "-m", f"docs: add Day {day_str} study material ({date_str})"])
         
-        # Capture push output safely
-        res = subprocess.run(["git", "-C", repo_dir, "push", "origin", "main"], capture_output=True, text=True)
-        if res.returncode == 0:
-            print("Successfully pushed to GitHub!")
-            return True
-        else:
-            print("Git push failed!")
+        # Branch name
+        branch_name = f"study/day-{day_str}"
+        
+        # Ensure we start from main and pull latest
+        subprocess.run(["git", "-C", repo_dir, "checkout", "main"])
+        subprocess.run(["git", "-C", repo_dir, "pull", "origin", "main"])
+        
+        # Create and checkout branch
+        subprocess.run(["git", "-C", repo_dir, "checkout", "-b", branch_name])
+        
+        # Add files & commit
+        subprocess.run(["git", "-C", repo_dir, "add", "."])
+        commit_msg = f"docs: add Day {day_str} study material ({date_str})"
+        subprocess.run(["git", "-C", repo_dir, "commit", "-m", commit_msg])
+        
+        # Secure URL with token
+        repo_url = f"https://x-access-token:{token}@github.com/paulocauca/pqc.git"
+        
+        # Push branch
+        print(f"Pushing branch {branch_name}...")
+        res = subprocess.run(["git", "-C", repo_dir, "push", "-u", repo_url, branch_name], capture_output=True, text=True)
+        if res.returncode != 0:
+            print("Git branch push failed!")
             print(res.stderr.replace(token, "REDACTED"))
             return False
+            
+        # Create Pull Request
+        print("Creating Pull Request on GitHub...")
+        pr_url = "https://api.github.com/repos/paulocauca/pqc/pulls"
+        pr_data = {
+            "title": commit_msg,
+            "head": branch_name,
+            "base": "main",
+            "body": f"Bilingual study materials (EN & PT-BR) and timeline updates for Day {day_str} ({date_str})."
+        }
+        
+        req = urllib.request.Request(
+            pr_url,
+            data=json.dumps(pr_data).encode("utf-8"),
+            headers={
+                "Authorization": f"token {token}",
+                "Accept": "application/vnd.github.v3+json",
+                "Content-Type": "application/json",
+                "User-Agent": "Hermes-Agentic-AI"
+            },
+            method="POST"
+        )
+        
+        try:
+            with urllib.request.urlopen(req) as response:
+                res_data = json.loads(response.read().decode("utf-8"))
+                pr_number = res_data.get("number")
+                pr_html_url = res_data.get("html_url")
+                print(f"Successfully created PR #{pr_number}: {pr_html_url}")
+        except Exception as e:
+            print("Error creating PR:", e)
+            return False
+            
+        # Merge Pull Request
+        print(f"Merging PR #{pr_number}...")
+        merge_url = f"https://api.github.com/repos/paulocauca/pqc/pulls/{pr_number}/merge"
+        merge_data = {
+            "merge_method": "squash",
+            "commit_title": f"{commit_msg} (#{pr_number})"
+        }
+        
+        req_merge = urllib.request.Request(
+            merge_url,
+            data=json.dumps(merge_data).encode("utf-8"),
+            headers={
+                "Authorization": f"token {token}",
+                "Accept": "application/vnd.github.v3+json",
+                "Content-Type": "application/json",
+                "User-Agent": "Hermes-Agentic-AI"
+            },
+            method="PUT"
+        )
+        
+        try:
+            with urllib.request.urlopen(req_merge) as response:
+                merge_res = json.loads(response.read().decode("utf-8"))
+                if merge_res.get("merged"):
+                    print(f"PR #{pr_number} successfully merged!")
+                else:
+                    print("PR merge request completed but status is not merged.")
+                    return False
+        except Exception as e:
+            print("Error merging PR:", e)
+            return False
+            
+        # Clean up local and remote branches
+        print("Cleaning up branches locally...")
+        subprocess.run(["git", "-C", repo_dir, "checkout", "main"])
+        subprocess.run(["git", "-C", repo_dir, "pull", "origin", "main"])
+        subprocess.run(["git", "-C", repo_dir, "branch", "-D", branch_name])
+        # Optionally delete remote branch
+        subprocess.run(["git", "-C", repo_dir, "push", "origin", "--delete", branch_name])
+        
+        return True
     else:
         print("GITHUB_TOKEN not found in .env, cannot push!")
         return False
