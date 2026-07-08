@@ -163,7 +163,7 @@ html_template = """<!DOCTYPE html>
 </head>
 <body>
     <div class="header">
-        <div class="brand">ClinApp PQC Study Series</div>
+        <div class="brand">PQC Daily Study Series</div>
         <h1>{headline}</h1>
         <div class="meta">
             <div><strong>Day {day}</strong> | Category: {category}</div>
@@ -174,7 +174,7 @@ html_template = """<!DOCTYPE html>
     {content}
 
     <div class="footer">
-        ClinApp Post-Quantum Cryptography Daily Study Guide • Created Autonomously for Paulo Cauca
+        Post-Quantum Cryptography Daily Study Guide • Created Autonomously for Paulo Cauca
     </div>
 </body>
 </html>
