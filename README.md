@@ -19,7 +19,7 @@ The main objectives of this repository are:
 Here are the direct links to the latest study sheets and news digests:
 
 - **English (EN):** [Day 01 - Introduction to NIST FIPS Post-Quantum Standards (2026-07-08)](en/2026-07-08-introduction_to_pqc_standards.pdf)
-- **Português (PT-BR):** [Dia 01 - Introdução aos Padrões Post-Quantum NIST FIPS (2026-07-08)](pt-BR/2026-07-08-introducao_aos_padroes_pqc.pdf)
+- **Português (PT-BR):** [Dia 01 - Introdução aos Padrões Post-Quantum NIST FIPS (2026-07-08)](pt-BR/2026-07-08-introduction_to_pqc_standards.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
