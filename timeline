@@ -1,0 +1,7 @@
+# Post-Quantum Cryptography (PQC) Study Timeline
+
+This timeline serves as a progression tracker for our journey to master Post-Quantum Cryptography and its internet applicability.
+
+| Day | Date | Topic | English Study Material | Material em Português | Key Focus Area | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **01** | 2026-07-08 | Introduction to NIST FIPS PQC Standards | [PDF (EN)](en/2026-07-08-introduction_to_pqc_standards.pdf) | [PDF (PT-BR)](pt-BR/2026-07-08-introducao_aos_padroes_pqc.pdf) | Overview of FIPS 203, 204, and 205 | Completed |
