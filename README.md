@@ -18,8 +18,8 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 01 - Introduction to NIST FIPS Post-Quantum Standards (2026-07-08)](en/2026-07-08-introduction_to_pqc_standards.pdf)
-- **Português (PT-BR):** [Dia 01 - Introdução aos Padrões Post-Quantum NIST FIPS (2026-07-08)](pt-BR/2026-07-08-introducao_aos_padroes_pqc.pdf)
+- **English (EN):** [Day 02 - Hybrid Key Exchange in TLS 1.3: Combining X25519 and ML-KEM (2026-07-09)](en/2026-07-09-hybrid_kem_tls13.pdf)
+- **Português (PT-BR):** [Dia 02 - Troca de Chaves Híbrida no TLS 1.3: Combinando X25519 e ML-KEM (2026-07-09)](pt-BR/2026-07-09-hybrid_kem_tls13.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -33,6 +33,12 @@ We acknowledge the original research, standards, and drafts provided by the **Na
 *   **FIPS 203 (ML-KEM):** [Module-Lattice-Based Key-Encapsulation Mechanism Standard](./resources/NIST.FIPS.203.pdf) — Derived from CRYSTALS-Kyber. Used for secure key exchange.
 *   **FIPS 204 (ML-DSA):** [Module-Lattice-Based Digital Signature Standard](./resources/NIST.FIPS.204.pdf) — Derived from CRYSTALS-Dilithium. Used for general-purpose digital signatures.
 *   **FIPS 205 (SLH-DSA):** [Stateless Hash-Based Digital Signature Standard](./resources/NIST.FIPS.205.pdf) — Derived from SPHINCS+. Used as a robust alternative signature scheme.
+
+### Daily Tracking News & Resources (2026-07-09)
+* [TLS 1.3 Hybrid Key Exchange using X25519Kyber768 / ML-KEM](https://www.netmeister.org/blog/tls-hybrid-kex.html) (October 2024)
+* [Post-Quantum Hybrid Key Exchange for TLS 1.3 - Inside.java](https://inside.java/2026/02/17/tls-post-quantum-hybrid-key-exchange) (February 2026)
+* [Hybrid Key Exchange Today: Why X25519 + ML-KEM Is the Interim Default - NetGuardia](https://netguardia.com/privacy/encryption/hybrid-key-exchange-today-why-x25519-ml-kem-is-the-interim-default) (April 2026)
+* [Hybrid KEM: Running X25519 and ML-KEM Together in TLS - AfterRSA](https://www.afterrsa.com/atlas/pqc/hybrid-kem) (April 2026)
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
