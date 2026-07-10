@@ -18,8 +18,8 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 02 - Hybrid Key Exchange in TLS 1.3: Combining X25519 and ML-KEM (2026-07-09)](en/2026-07-09-hybrid_kem_tls13.pdf)
-- **Português (PT-BR):** [Dia 02 - Troca de Chaves Híbrida no TLS 1.3: Combinando X25519 e ML-KEM (2026-07-09)](pt-BR/2026-07-09-hybrid_kem_tls13.pdf)
+- **English (EN):** [Day 03 - Post-Quantum SSH Hardening in 2026: The Transition to mlkem768x25519-sha256 in OpenSSH (2026-07-10)](en/2026-07-10-openssh_pq_hardening_mlkem768.pdf)
+- **Português (PT-BR):** [Dia 03 - Endurecimento Pós-Quântico do SSH em 2026: A Transição para mlkem768x25519-sha256 no OpenSSH (2026-07-10)](pt-BR/2026-07-10-openssh_pq_hardening_mlkem768.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -39,6 +39,11 @@ We acknowledge the original research, standards, and drafts provided by the **Na
 * [Post-Quantum Hybrid Key Exchange for TLS 1.3 - Inside.java](https://inside.java/2026/02/17/tls-post-quantum-hybrid-key-exchange) (February 2026)
 * [Hybrid Key Exchange Today: Why X25519 + ML-KEM Is the Interim Default - NetGuardia](https://netguardia.com/privacy/encryption/hybrid-key-exchange-today-why-x25519-ml-kem-is-the-interim-default) (April 2026)
 * [Hybrid KEM: Running X25519 and ML-KEM Together in TLS - AfterRSA](https://www.afterrsa.com/atlas/pqc/hybrid-kem) (April 2026)
+
+### Daily Tracking News & Resources (2026-07-10)
+* [OpenSSH Post-Quantum Cryptography](https://www.openssh.org/pq.html) (2025/2026)
+* [Ubuntu 26.04 Post-Quantum SSH Hardening](https://computingforgeeks.com/ubuntu-2604-post-quantum-ssh-hardening/) (April 2026)
+* [OpenSSH 9.9 released with mlkem768x25519-sha256 - 4sysops](https://4sysops.com/archives/openssh-99-new-features-enhanced-security-with-post-quantum-key-exchange-mlkem768x25519-sha256-and-dsa-removal) (November 2024)
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
