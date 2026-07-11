@@ -18,8 +18,8 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 03 - Post-Quantum SSH Hardening in 2026: The Transition to mlkem768x25519-sha256 in OpenSSH (2026-07-10)](en/2026-07-10-openssh_pq_hardening_mlkem768.pdf)
-- **Português (PT-BR):** [Dia 03 - Endurecimento Pós-Quântico do SSH em 2026: A Transição para mlkem768x25519-sha256 no OpenSSH (2026-07-10)](pt-BR/2026-07-10-openssh_pq_hardening_mlkem768.pdf)
+- **English (EN):** [Day 04 - Post-Quantum Cryptography in Virtual Private Networks (VPNs): The Transition to Hybrid WireGuard and PQPSK (2026-07-11)](en/2026-07-11-wireguard_pqc_transition.pdf)
+- **Português (PT-BR):** [Dia 04 - Criptografia Pós-Quântica em Redes Privadas Virtuais (VPNs): A Transição para WireGuard Híbrido e PQPSK (2026-07-11)](pt-BR/2026-07-11-wireguard_pqc_transition.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -44,6 +44,12 @@ We acknowledge the original research, standards, and drafts provided by the **Na
 * [OpenSSH Post-Quantum Cryptography](https://www.openssh.org/pq.html) (2025/2026)
 * [Ubuntu 26.04 Post-Quantum SSH Hardening](https://computingforgeeks.com/ubuntu-2604-post-quantum-ssh-hardening/) (April 2026)
 * [OpenSSH 9.9 released with mlkem768x25519-sha256 - 4sysops](https://4sysops.com/archives/openssh-99-new-features-enhanced-security-with-post-quantum-key-exchange-mlkem768x25519-sha256-and-dsa-removal) (November 2024)
+
+### Daily Tracking News & Resources (2026-07-11)
+* [WireGuard Protocol and Cryptography Documentation](https://www.wireguard.com/protocol/) (2025/2026)
+* [Post-quantum WireGuard - Cryptology ePrint Archive](https://eprint.iacr.org/2020/379) (Hülsing et al., 2020)
+* [VPN Protocols in 2026: Deep Dive into WireGuard, OpenVPN, IKEv2, and Next-Gen Standards](https://tunnelpicks.net/blog/vpn-protocols-2026-wireguard-openvpn-ikev2) (June 2026)
+* [Post-Quantum Networking: WireGuard PQC and the Future of the VPN](https://www.fosslinux.com/156600/post-quantum-networking-wireguard-pqc-and-the-future-of-the-vpn.htm) (June 2026)
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
