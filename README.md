@@ -18,8 +18,8 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 04 - Post-Quantum Cryptography in Virtual Private Networks (VPNs): The Transition to Hybrid WireGuard and PQPSK (2026-07-11)](en/2026-07-11-wireguard_pqc_transition.pdf)
-- **Português (PT-BR):** [Dia 04 - Criptografia Pós-Quântica em Redes Privadas Virtuais (VPNs): A Transição para WireGuard Híbrido e PQPSK (2026-07-11)](pt-BR/2026-07-11-wireguard_pqc_transition.pdf)
+- **English (EN):** [Day 05 - Post-Quantum Cryptography in Web Browsers and PKI: The 2026 Client-Side Adoption and CA Roadmap (2026-07-12)](en/2026-07-12-browser_pqc_pki_transition.pdf)
+- **Português (PT-BR):** [Dia 05 - Criptografia Pós-Quântica em Navegadores Web e PKI: A Adoção no Client-Side e o Cronograma das ACs em 2026 (2026-07-12)](pt-BR/2026-07-12-browser_pqc_pki_transition.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -50,6 +50,11 @@ We acknowledge the original research, standards, and drafts provided by the **Na
 * [Post-quantum WireGuard - Cryptology ePrint Archive](https://eprint.iacr.org/2020/379) (Hülsing et al., 2020)
 * [VPN Protocols in 2026: Deep Dive into WireGuard, OpenVPN, IKEv2, and Next-Gen Standards](https://tunnelpicks.net/blog/vpn-protocols-2026-wireguard-openvpn-ikev2) (June 2026)
 * [Post-Quantum Networking: WireGuard PQC and the Future of the VPN](https://www.fosslinux.com/156600/post-quantum-networking-wireguard-pqc-and-the-future-of-the-vpn.htm) (June 2026)
+
+### Daily Tracking News & Resources (2026-07-12)
+* [Post-Quantum Cryptography in 2026: Where Browsers, CAs, and Enterprises Actually Stand - TigerTrust](https://www.tigertrust.io/blog/post-quantum-cryptography-2026-status) (Marcus Webb, March 2026)
+* [Quantum-Secure Internet: Post-Quantum Cryptography, National Rollouts, and the Future of Digital Trust - RI Study Post](https://www.ristudypost.com/2026/01/quantum-secure-internet-post-quantum.html) (January 2026)
+* [Post-Quantum Cryptography in 2026 - PQC Standards, Lattice-Based Encryption, and Quantum-Safe Security - Internet Pros](https://internet-pros.com/blog/post-quantum-cryptography-pqc-2026/) (2026)
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
