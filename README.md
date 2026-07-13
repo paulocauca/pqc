@@ -18,8 +18,8 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 05 - Post-Quantum Cryptography in Web Browsers and PKI: The 2026 Client-Side Adoption and CA Roadmap (2026-07-12)](en/2026-07-12-browser_pqc_pki_transition.pdf)
-- **Português (PT-BR):** [Dia 05 - Criptografia Pós-Quântica em Navegadores Web e PKI: A Adoção no Client-Side e o Cronograma das ACs em 2026 (2026-07-12)](pt-BR/2026-07-12-browser_pqc_pki_transition.pdf)
+- **English (EN):** [Day 06 - Post-Quantum Code Signing and Software Updates: Securing the Software Supply Chain with ML-DSA and SLH-DSA (2026-07-13)](en/2026-07-13-code_signing_pqc_transition.pdf)
+- **Português (PT-BR):** [Dia 06 - Assinatura de Código e Atualizações de Software Pós-Quânticas: Protegendo a Cadeia de Suprimentos de Software com ML-DSA e SLH-DSA (2026-07-13)](pt-BR/2026-07-13-code_signing_pqc_transition.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -55,6 +55,12 @@ We acknowledge the original research, standards, and drafts provided by the **Na
 * [Post-Quantum Cryptography in 2026: Where Browsers, CAs, and Enterprises Actually Stand - TigerTrust](https://www.tigertrust.io/blog/post-quantum-cryptography-2026-status) (Marcus Webb, March 2026)
 * [Quantum-Secure Internet: Post-Quantum Cryptography, National Rollouts, and the Future of Digital Trust - RI Study Post](https://www.ristudypost.com/2026/01/quantum-secure-internet-post-quantum.html) (January 2026)
 * [Post-Quantum Cryptography in 2026 - PQC Standards, Lattice-Based Encryption, and Quantum-Safe Security - Internet Pros](https://internet-pros.com/blog/post-quantum-cryptography-pqc-2026/) (2026)
+
+### Daily Tracking News & Resources (2026-07-13)
+* [NIST FIPS 204: Module-Lattice-Based Digital Signature Standard](https://csrc.nist.gov/pubs/fips/204/final) (NIST, August 2024)
+* [NIST FIPS 205: Stateless Hash-Based Digital Signature Standard](https://csrc.nist.gov/pubs/fips/205/final) (NIST, August 2024)
+* [Post-Quantum Cryptography 2026: The Age of Deployment - CIR Report](https://www.cir-inc.com/product/post-quantum-cryptography-2026) (July 2026)
+* [Encryption Consulting - The PQC Signature Selection Playbook & Firmware Signatures](https://www.encryptionconsulting.com/) (2025/2026)
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
