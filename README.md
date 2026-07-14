@@ -18,8 +18,8 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 06 - Post-Quantum Code Signing and Software Updates: Securing the Software Supply Chain with ML-DSA and SLH-DSA (2026-07-13)](en/2026-07-13-code_signing_pqc_transition.pdf)
-- **Português (PT-BR):** [Dia 06 - Assinatura de Código e Atualizações de Software Pós-Quânticas: Protegendo a Cadeia de Suprimentos de Software com ML-DSA e SLH-DSA (2026-07-13)](pt-BR/2026-07-13-code_signing_pqc_transition.pdf)
+- **English (EN):** [Day 07 - Post-Quantum IPsec and IKEv2: Securing Enterprise VPNs with RFC 9370, RFC 9242, and ML-KEM (2026-07-14)](en/2026-07-14-ipsec_ikev2_pqc_transition.pdf)
+- **Português (PT-BR):** [Dia 07 - IPsec e IKEv2 Pós-Quânticos: Protegendo VPNs Corporativas com RFC 9370, RFC 9242 e ML-KEM (2026-07-14)](pt-BR/2026-07-14-ipsec_ikev2_pqc_transition.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -61,6 +61,12 @@ We acknowledge the original research, standards, and drafts provided by the **Na
 * [NIST FIPS 205: Stateless Hash-Based Digital Signature Standard](https://csrc.nist.gov/pubs/fips/205/final) (NIST, August 2024)
 * [Post-Quantum Cryptography 2026: The Age of Deployment - CIR Report](https://www.cir-inc.com/product/post-quantum-cryptography-2026) (July 2026)
 * [Encryption Consulting - The PQC Signature Selection Playbook & Firmware Signatures](https://www.encryptionconsulting.com/) (2025/2026)
+
+### Daily Tracking News & Resources (2026-07-14)
+* [RFC 9370: Multiple Key Exchanges in IKEv2](https://www.rfc-editor.org/rfc/rfc9370.html) (IETF, May 2023)
+* [IETF Draft: Post-quantum Hybrid Key Exchange with ML-KEM in IKEv2](https://datatracker.ietf.org/doc/draft-ietf-ipsecme-ikev2-mlkem/) (Kampanakis, September 2025)
+* [Cloudflare: Cloudflare One goes Post-Quantum with Hybrid ML-KEM IPsec](https://blog.cloudflare.com/post-quantum-sase/) (Cloudflare, 2026)
+* [Integrating PQC into StrongSwan: ML-KEM integration for IPsec/IKEv2](https://semiiphub.com/pulse/expert-perspectives/integrating-pqc-into-strongswan-ml-kem-integration-for-ipsec-ikev2) (December 2025)
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
