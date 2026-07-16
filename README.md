@@ -18,8 +18,8 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 07 - Post-Quantum IPsec and IKEv2: Securing Enterprise VPNs with RFC 9370, RFC 9242, and ML-KEM (2026-07-14)](en/2026-07-14-ipsec_ikev2_pqc_transition.pdf)
-- **Português (PT-BR):** [Dia 07 - IPsec e IKEv2 Pós-Quânticos: Protegendo VPNs Corporativas com RFC 9370, RFC 9242 e ML-KEM (2026-07-14)](pt-BR/2026-07-14-ipsec_ikev2_pqc_transition.pdf)
+- **English (EN):** [Day 08 - The Real-World Adoption of PQC in 2026: Hype vs. Reality (2026-07-16)](en/2026-07-16-pqc_adoption_status_2026.pdf)
+- **Português (PT-BR):** [Dia 08 - A Adoção Real da Criptografia Pós-Quântica em 2026: Expectativa vs. Realidade (2026-07-16)](pt-BR/2026-07-16-pqc_adoption_status_2026.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -67,6 +67,9 @@ We acknowledge the original research, standards, and drafts provided by the **Na
 * [IETF Draft: Post-quantum Hybrid Key Exchange with ML-KEM in IKEv2](https://datatracker.ietf.org/doc/draft-ietf-ipsecme-ikev2-mlkem/) (Kampanakis, September 2025)
 * [Cloudflare: Cloudflare One goes Post-Quantum with Hybrid ML-KEM IPsec](https://blog.cloudflare.com/post-quantum-sase/) (Cloudflare, 2026)
 * [Integrating PQC into StrongSwan: ML-KEM integration for IPsec/IKEv2](https://semiiphub.com/pulse/expert-perspectives/integrating-pqc-into-strongswan-ml-kem-integration-for-ipsec-ikev2) (December 2025)
+
+### Daily Tracking News & Resources (2026-07-16)
+[TigerTrust Blog: Post-Quantum Cryptography in 2026](https://www.tigertrust.io/blog/post-quantum-cryptography-2026-status)
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
