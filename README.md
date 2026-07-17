@@ -18,8 +18,8 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 08 - The Real-World Adoption of PQC in 2026: Hype vs. Reality (2026-07-16)](en/2026-07-16-pqc_adoption_status_2026.pdf)
-- **Português (PT-BR):** [Dia 08 - A Adoção Real da Criptografia Pós-Quântica em 2026: Expectativa vs. Realidade (2026-07-16)](pt-BR/2026-07-16-pqc_adoption_status_2026.pdf)
+- **English (EN):** [Day 09 - The 'Harvest Now, Decrypt Later' (HNDL) Threat Model (2026-07-17)](en/2026-07-17-hndl_threat_model.pdf)
+- **Português (PT-BR):** [Dia 09 - O Modelo de Ameaça 'Harvest Now, Decrypt Later' (HNDL) (2026-07-17)](pt-BR/2026-07-17-hndl_threat_model.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -70,6 +70,9 @@ We acknowledge the original research, standards, and drafts provided by the **Na
 
 ### Daily Tracking News & Resources (2026-07-16)
 [TigerTrust Blog: Post-Quantum Cryptography in 2026](https://www.tigertrust.io/blog/post-quantum-cryptography-2026-status)
+
+### Daily Tracking News & Resources (2026-07-17)
+*   [TigerTrust: PQC in 2026](https://www.tigertrust.io/blog/post-quantum-cryptography-2026-status)\n*   [RI Study Post: Quantum-Secure Internet](https://www.ristudypost.com/2026/01/quantum-secure-internet-post-quantum.html)\n*   [NIST PQC Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
