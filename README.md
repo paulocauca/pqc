@@ -18,8 +18,8 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 09 - The 'Harvest Now, Decrypt Later' (HNDL) Threat Model (2026-07-17)](en/2026-07-17-hndl_threat_model.pdf)
-- **Português (PT-BR):** [Dia 09 - O Modelo de Ameaça 'Harvest Now, Decrypt Later' (HNDL) (2026-07-17)](pt-BR/2026-07-17-hndl_threat_model.pdf)
+- **English (EN):** [Day 10 - PQC Adoption in 2026: The Internet Crosses the 50% Threshold with Hybrid Key Exchange (2026-07-18)](en/2026-07-18-pqc_adoption_milestone_2026.pdf)
+- **Português (PT-BR):** [Dia 10 - Adoção da PQC em 2026: A Internet Cruza o Limiar de 50% com Troca de Chaves Híbrida (2026-07-18)](pt-BR/2026-07-18-pqc_adoption_milestone_2026.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -73,6 +73,9 @@ We acknowledge the original research, standards, and drafts provided by the **Na
 
 ### Daily Tracking News & Resources (2026-07-17)
 *   [TigerTrust: PQC in 2026](https://www.tigertrust.io/blog/post-quantum-cryptography-2026-status)\n*   [RI Study Post: Quantum-Secure Internet](https://www.ristudypost.com/2026/01/quantum-secure-internet-post-quantum.html)\n*   [NIST PQC Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
+
+### Daily Tracking News & Resources (2026-07-18)
+[Cloudflare: Post-Quantum Cryptography Crosses the 50% Threshold](https://shattered.io/post-quantum-cryptography-2026/) | [Arxiv: Measurement Study of Post-Quantum Readiness of Internet: 2026](https://arxiv.org/html/2606.16473)
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
