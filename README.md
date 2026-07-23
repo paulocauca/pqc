@@ -18,8 +18,8 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 13 - PQC Adoption Gap in 2026: Browser Readiness vs. Server-Side Lag (2026-07-21)](en/2026-07-21-pqc_adoption_gap_2026.pdf)
-- **Português (PT-BR):** [Dia 13 - O Hiato na Adoção da PQC em 2026: Prontidão dos Navegadores vs. Atraso no Lado do Servidor (2026-07-21)](pt-BR/2026-07-21-pqc_adoption_gap_2026.pdf)
+- **English (EN):** [Day 14 - PQC Adoption in the Wild: A Look at Real-World Data (2026-07-23)](en/2026-07-23-pqc_adoption_real_world_data.pdf)
+- **Português (PT-BR):** [Dia 14 - Adoção da PQC no Mundo Real: Uma Análise de Dados Concretos (2026-07-23)](pt-BR/2026-07-23-pqc_adoption_real_world_data.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -85,6 +85,9 @@ We acknowledge the original research, standards, and drafts provided by the **Na
 
 ### Daily Tracking News & Resources (2026-07-21)
 - [Post-Quantum Cryptography 2026: Real Status of PQC Adoption](https://www.tigertrust.io/blog/post-quantum-cryptography-2026-status)\n- [Measurement Study of Post-Quantum Readiness of Internet: 2026](https://arxiv.org/html/2606.16473)\n- [The State of Post-Quantum Cryptography Adoption in 2026](https://cybertechnologyinsights.com/whitepaper/the-state-of-post-quantum-cryptography-adoption-in-2026/)
+
+### Daily Tracking News & Resources (2026-07-23)
+- [Post-Quantum Cryptography (PQC) Network Instrument: Measuring PQC Adoption Rates and Identifying Migration Pathways](https://arxiv.org/html/2408.00054v3)
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
