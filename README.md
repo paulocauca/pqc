@@ -89,6 +89,9 @@ We acknowledge the original research, standards, and drafts provided by the **Na
 ### Daily Tracking News & Resources (2026-07-23)
 - [Post-Quantum Cryptography (PQC) Network Instrument: Measuring PQC Adoption Rates and Identifying Migration Pathways](https://arxiv.org/html/2408.00054v3)
 
+### Daily Tracking News & Resources (2026-07-23)
+- [Post-Quantum Cryptography (PQC) Network Instrument: Measuring PQC Adoption Rates and Identifying Migration Pathways](https://arxiv.org/html/2408.00054v3)
+
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
 *   [PQC Standards Portal](https://csrc.nist.gov/projects/post-quantum-cryptography/post-quantum-cryptography-standardization)
