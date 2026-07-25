@@ -18,8 +18,8 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 15 - PQC Adoption Gap in 2026: Browser Readiness vs. Server-Side Lag (2026-07-24)](en/2026-07-24-pqc_adoption_gap_2026.pdf)
-- **Português (PT-BR):** [Dia 15 - O Hiato na Adoção da PQC em 2026: Prontidão dos Navegadores vs. Atraso no Lado do Servidor (2026-07-24)](pt-BR/2026-07-24-pqc_adoption_gap_2026.pdf)
+- **English (EN):** [Day 16 - PQC Adoption Gap in 2026: Browser Readiness vs. Server-Side Lag (2026-07-25)](en/2026-07-25-pqc_adoption_gap_2026.pdf)
+- **Português (PT-BR):** [Dia 16 - O Hiato na Adoção da PQC em 2026: Prontidão dos Navegadores vs. Atraso no Lado do Servidor (2026-07-25)](pt-BR/2026-07-25-pqc_adoption_gap_2026.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -94,6 +94,9 @@ We acknowledge the original research, standards, and drafts provided by the **Na
 
 ### Daily Tracking News & Resources (2026-07-24)
 - [TigerTrust: Post-Quantum Cryptography in 2026](https://www.tigertrust.io/blog/post-quantum-cryptography-2026-status)\n- [NIST PQC Project](https://csrc.nist.gov/projects/post-quantum-cryptography)\n- [Science of Security Virtual Organization: Measuring PQC Adoption](https://sos-vo.org/node/109281)
+
+### Daily Tracking News & Resources (2026-07-25)
+[Post-Quantum Cryptography 2026: Real Status of PQC Adoption](https://www.tigertrust.io/blog/post-quantum-cryptography-2026-status)
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
