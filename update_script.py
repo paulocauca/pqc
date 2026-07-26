@@ -3,142 +3,124 @@ import sys
 sys.path.append('/home/rycz/pqc/scripts')
 from daily_updater import update_repo
 
-day_str = "11"
-date_str = "2026-07-19"
-topic_en = "PQC Adoption Gap in 2026: Browser Readiness vs. Server-Side Lag"
-topic_pt = "O Hiato na Adoção da PQC em 2026: Prontidão dos Navegadores vs. Atraso no Lado do Servidor"
-file_name_prefix = "pqc_adoption_gap_2026"
+day_str = "17"
+date_str = "2026-07-26"
+topic_en = "PQC Adoption in Practice: Overcoming the Server-Side Implementation Gap"
+topic_pt = "Adoção da PQC na Prática: Superando a Lacuna de Implementação no Servidor"
+file_name_prefix = "pqc_server_side_adoption_gap"
 category_en = "PQC Adoption & Industry Status"
 category_pt = "Adoção da PQC e Status da Indústria"
-content_en = """<h2>The PQC Adoption Gap of 2026</h2>
-<p>As of mid-2026, the internet is in a critical transitional phase for post-quantum cryptography. While major web browsers have successfully rolled out support for hybrid key exchange mechanisms, the vast majority of web servers and enterprise systems are lagging significantly. This disparity has created a "PQC Adoption Gap," where the client-side is ready for a quantum-resistant future, but the server-side infrastructure remains vulnerable.</p>
+content_en = """<h2>PQC Adoption in Practice: Overcoming the Server-Side Implementation Gap</h2>
+<p>While major web browsers have enthusiastically adopted post-quantum cryptography, a significant gap remains on the server side. As of mid-2026, browser support for hybrid key exchange (like X25519Kyber768) is nearly universal. However, website and API server adoption lags dangerously behind. This gap isn't just a statistic; it represents a window of opportunity for attackers performing "Harvest Now, Decrypt Later" (HNDL) attacks.</p>
 
-<h3>Client-Side Success: Browsers are PQC-Ready</h3>
-<p>All major web browsers, including Chrome, Firefox, Safari, and Edge, now enable hybrid key exchange by default. They typically use the <strong>X25519Kyber768</strong> mechanism, which combines the classical Elliptic Curve Diffie-Hellman (X25519) with the NIST-standardized ML-KEM (Kyber). This hybrid approach ensures that connections are protected against both classical and future quantum attacks. If a quantum computer were to break one algorithm, the other would still secure the connection.</p>
+<h3>The Disparity in Numbers</h3>
+<p>The adoption metrics clearly show a two-tiered internet. A handful of hyper-scalers and tech giants have deployed PQC, while the vast majority of the web remains unprotected against future quantum threats.</p>
+<table class="comparison-table">
+  <tr>
+    <th>Web Segment</th>
+    <th>Hybrid PQC Adoption Rate (July 2026)</th>
+  </tr>
+  <tr>
+    <td>Top 100 Websites (e.g., Google, Cloudflare, Meta)</td>
+    <td>~45%</td>
+  </tr>
+  <tr>
+    <td>Top 1,000 Websites</td>
+    <td>~28%</td>
+  </tr>
+  <tr>
+    <td>Top 1 Million Websites</td>
+    <td>~9%</td>
+  </tr>
+  <tr>
+    <td>Internal Enterprise Services</td>
+    <td>&lt; 2% (estimated)</td>
+  </tr>
+</table>
 <div class="highlight-box">
-  <h4>Applicability to Internet Protocols</h4>
-  <p>This hybrid key exchange is primarily implemented within the <strong>TLS 1.3</strong> protocol, which secures the vast majority of web traffic (HTTPS). The browser's ability to negotiate a quantum-resistant key exchange is the first and most crucial step in protecting everyday internet activities like browsing, online banking, and e-commerce from the "Harvest Now, Decrypt Later" (HNDL) threat.</p>
+  <p><strong>The Call to Action:</strong> The responsibility now shifts from browser developers to us—the system administrators, DevOps engineers, and security professionals. Closing this gap is critical to rendering HNDL attacks ineffective on a global scale.</p>
 </div>
 
-<h3>Server-Side Lag: The Root of the Gap</h3>
-<p>Despite browser readiness, studies show that server-side adoption is dangerously low. While nearly all major tech giants (Google, Cloudflare, etc.) have updated their servers, the broader internet has not. Estimates from mid-2026 indicate:</p>
-<ul>
-    <li>Around 40% of the top 100 websites support hybrid PQC.</li>
-    <li>This number drops to less than 10% for the top 1 million websites.</li>
-    <li>Internal enterprise systems and smaller organizations are estimated to have less than 2% adoption.</li>
-</ul>
-<p>This lag is due to the operational complexity, cost, and compatibility challenges associated with upgrading server software, network appliances, and cryptographic libraries. Many organizations are waiting for clearer guidance or are struggling to prioritize the migration amidst other business needs.</p>
+<h3>Closing the Gap: Enabling PQC on Your Servers</h3>
+<p>The good news is that for many modern servers, enabling hybrid PQC support is a straightforward configuration change. If you are using a recent version of OpenSSL (3.2+), enabling it on your web server is simple.</p>
 
-<h3>Adoption Status Comparison (Mid-2026)</h3>
-<table class="comparison-table">
-  <thead>
-    <tr>
-      <th>Component</th>
-      <th>PQC Readiness Status</th>
-      <th>Primary Mechanism</th>
-      <th>Key Takeaway</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Major Web Browsers</td>
-      <td style="color: green;"><strong>High</strong></td>
-      <td>X25519Kyber768 (Default Enabled)</td>
-      <td>The client-side is largely prepared and actively attempting PQC negotiations.</td>
-    </tr>
-    <tr>
-      <td>Large Tech/CDN Servers</td>
-      <td style="color: orange;"><strong>Medium-High</strong></td>
-      <td>ML-KEM support is widespread</td>
-      <td>The backbone of the modern web is quickly becoming quantum-resistant.</td>
-    </tr>
-    <tr>
-      <td>General Web Servers (Top 1M)</td>
-      <td style="color: red;"><strong>Very Low</strong></td>
-      <td>Primarily classical (RSA/ECDH)</td>
-      <td>The "long tail" of the internet remains highly vulnerable to HNDL attacks.</td>
-    </tr>
-    <tr>
-      <td>Enterprise Internal Systems</td>
-      <td style="color: red;"><strong>Critically Low</strong></td>
-      <td>Legacy classical algorithms</td>
-      <td>Represents a significant risk for corporate data and critical infrastructure.</td>
-    </tr>
-  </tbody>
-</table>
+<h4>NGINX Configuration</h4>
+<p>In your <code>nginx.conf</code> file, within the <code>server</code> block for your HTTPS site, add or modify the <code>ssl_ecdh_curve</code> directive:</p>
+<pre><code>
+# Enables hybrid PQC key exchange alongside robust classical curves
+ssl_ecdh_curve X25519Kyber768:X25519:P-256;
+</code></pre>
+
+<h4>Apache Configuration</h4>
+<p>For Apache with mod_ssl and OpenSSL 3.2+, you can add the following to your SSL configuration:</p>
+<pre><code>
+# In httpd-ssl.conf or your vhost config
+SSLOpenSSLConfCmd Curves X25519Kyber768:X25519:P-256
+</code></pre>
+<p>After applying these changes, a server restart is required. You can then test your server's configuration using tools like SSL Labs or by inspecting the connection details in a modern browser.</p>
 
 <h3>Daily Quiz</h3>
-<p>Test your knowledge of today's topic:</p>
-<ol>
-    <li>What is the "PQC Adoption Gap"?</li>
-    <li>What specific hybrid key exchange mechanism is commonly used by modern browsers?</li>
-    <li>Why does the server-side lag in PQC adoption pose a significant risk even if browsers are ready?</li>
-</ol>"""
-content_pt = """<h2>O Hiato na Adoção da PQC em 2026</h2>
-<p>Em meados de 2026, a internet encontra-se em uma fase de transição crítica para a criptografia pós-quântica. Embora os principais navegadores web já tenham implementado com sucesso o suporte a mecanismos de troca de chaves híbrida, a grande maioria dos servidores web e sistemas corporativos está significativamente atrasada. Essa disparidade criou um "Hiato na Adoção da PQC", onde o lado do cliente está pronto para um futuro quântico-resistente, mas a infraestrutura do lado do servidor permanece vulnerável.</p>
+<ul>
+  <li><strong>1. What is the most significant risk associated with the server-side PQC adoption gap?</strong></li>
+  <li><strong>2. Which OpenSSL version is generally required for straightforward PQC configuration in NGINX and Apache?</strong></li>
+  <li><strong>3. What does the term "X25519Kyber768" represent in a TLS configuration?</strong></li>
+</ul>"""
+content_pt = """<h2>Adoção da PQC na Prática: Superando a Lacuna de Implementação no Servidor</h2>
+<p>Embora os principais navegadores de internet tenham adotado com entusiasmo a criptografia pós-quântica, uma lacuna significativa permanece do lado do servidor. Em meados de 2026, o suporte dos navegadores para a troca de chaves híbrida (como X25519Kyber768) é quase universal. No entanto, a adoção por parte de sites e servidores de API está perigosamente atrasada. Essa lacuna não é apenas uma estatística; representa uma janela de oportunidade para atacantes que realizam ataques "Harvest Now, Decrypt Later" (HNDL).</p>
 
-<h3>Sucesso no Lado do Cliente: Navegadores Estão Prontos para a PQC</h3>
-<p>Todos os principais navegadores, incluindo Chrome, Firefox, Safari e Edge, agora habilitam a troca de chaves híbrida por padrão. Eles normalmente utilizam o mecanismo <strong>X25519Kyber768</strong>, que combina o clássico Elliptic Curve Diffie-Hellman (X25519) com o ML-KEM (Kyber), padronizado pelo NIST. Essa abordagem híbrida garante que as conexões estejam protegidas tanto contra ataques clássicos quanto futuros ataques quânticos. Se um computador quântico quebrar um dos algoritmos, o outro ainda garantirá a segurança da conexão.</p>
+<h3>A Disparidade em Números</h3>
+<p>As métricas de adoção mostram claramente uma internet de duas velocidades. Um punhado de hiperescaladores e gigantes da tecnologia implementaram a PQC, enquanto a grande maioria da web permanece desprotegida contra futuras ameaças quânticas.</p>
+<table class="comparison-table">
+  <tr>
+    <th>Segmento da Web</th>
+    <th>Taxa de Adoção da PQC Híbrida (Julho 2026)</th>
+  </tr>
+  <tr>
+    <td>Top 100 Websites (ex: Google, Cloudflare, Meta)</td>
+    <td>~45%</td>
+  </tr>
+  <tr>
+    <td>Top 1.000 Websites</td>
+    <td>~28%</td>
+  </tr>
+  <tr>
+    <td>Top 1 Milhão de Websites</td>
+    <td>~9%</td>
+  </tr>
+  <tr>
+    <td>Serviços Corporativos Internos</td>
+    <td>&lt; 2% (estimado)</td>
+  </tr>
+</table>
 <div class="highlight-box">
-  <h4>Aplicabilidade a Protocolos de Internet</h4>
-  <p>Essa troca de chaves híbrida é implementada primariamente no protocolo <strong>TLS 1.3</strong>, que protege a grande maioria do tráfego web (HTTPS). A capacidade do navegador de negociar uma troca de chaves quântico-resistente é o primeiro e mais crucial passo para proteger atividades diárias na internet, como navegação, transações bancárias online e e-commerce, da ameaça "Harvest Now, Decrypt Later" (HNDL).</p>
+  <p><strong>A Chamada para Ação:</strong> A responsabilidade agora passa dos desenvolvedores de navegadores para nós—administradores de sistemas, engenheiros de DevOps e profissionais de segurança. Fechar essa lacuna é crucial para tornar os ataques HNDL ineficazes em escala global.</p>
 </div>
 
-<h3>Atraso no Lado do Servidor: A Raiz do Hiato</h3>
-<p>Apesar da prontidão dos navegadores, estudos mostram que a adoção no lado do servidor é perigosamente baixa. Enquanto quase todas as gigantes de tecnologia (Google, Cloudflare, etc.) já atualizaram seus servidores, a internet em geral ainda não o fez. Estimativas de meados de 2026 indicam:</p>
+<h3>Fechando a Lacuna: Habilitando a PQC em Seus Servidores</h3>
+<p>A boa notícia é que, para muitos servidores modernos, habilitar o suporte à PQC híbrida é uma mudança de configuração direta. Se você está usando uma versão recente do OpenSSL (3.2+), habilitá-la em seu servidor web é simples.</p>
+
+<h4>Configuração do NGINX</h4>
+<p>No seu arquivo <code>nginx.conf</code>, dentro do bloco <code>server</code> para o seu site HTTPS, adicione ou modifique a diretiva <code>ssl_ecdh_curve</code>:</p>
+<pre><code>
+# Habilita a troca de chaves PQC híbrida junto com curvas clássicas robustas
+ssl_ecdh_curve X25519Kyber768:X25519:P-256;
+</code></pre>
+
+<h4>Configuração do Apache</h4>
+<p>Para o Apache com mod_ssl e OpenSSL 3.2+, você pode adicionar o seguinte à sua configuração SSL:</p>
+<pre><code>
+# No httpd-ssl.conf ou na configuração do seu vhost
+SSLOpenSSLConfCmd Curves X25519Kyber768:X25519:P-256
+</code></pre>
+<p>Após aplicar essas alterações, é necessário reiniciar o servidor. Você pode então testar a configuração do seu servidor usando ferramentas como o SSL Labs ou inspecionando os detalhes da conexão em um navegador moderno.</p>
+
+<h3>Auto-avaliação Diária</h3>
 <ul>
-    <li>Cerca de 40% dos 100 principais websites suportam PQC híbrida.</li>
-    <li>Esse número cai para menos de 10% para o top 1 milhão de websites.</li>
-    <li>Sistemas corporativos internos e organizações menores têm uma adoção estimada inferior a 2%.</li>
-</ul>
-<p>Esse atraso deve-se à complexidade operacional, custo e desafios de compatibilidade associados à atualização de software de servidor, dispositivos de rede e bibliotecas criptográficas. Muitas organizações estão aguardando orientações mais claras ou têm dificuldade em priorizar a migração em meio a outras necessidades de negócio.</p>
-
-<h3>Comparativo do Status de Adoção (Meados de 2026)</h3>
-<table class="comparison-table">
-  <thead>
-    <tr>
-      <th>Componente</th>
-      <th>Status de Prontidão PQC</th>
-      <th>Mecanismo Principal</th>
-      <th>Principal Conclusão</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Principais Navegadores Web</td>
-      <td style="color: green;"><strong>Alto</strong></td>
-      <td>X25519Kyber768 (Habilitado por Padrão)</td>
-      <td>O lado do cliente está amplamente preparado e tentando ativamente negociações PQC.</td>
-    </tr>
-    <tr>
-      <td>Servidores de Grandes Tech/CDNs</td>
-      <td style="color: orange;"><strong>Médio-Alto</strong></td>
-      <td>Suporte a ML-KEM é generalizado</td>
-      <td>A espinha dorsal da web moderna está se tornando rapidamente quântico-resistente.</td>
-    </tr>
-    <tr>
-      <td>Servidores Web em Geral (Top 1M)</td>
-      <td style="color: red;"><strong>Muito Baixo</strong></td>
-      <td>Primariamente clássico (RSA/ECDH)</td>
-      <td>A "cauda longa" da internet permanece altamente vulnerável a ataques HNDL.</td>
-    </tr>
-    <tr>
-      <td>Sistemas Internos Corporativos</td>
-      <td style="color: red;"><strong>Criticamente Baixo</strong></td>
-      <td>Algoritmos clássicos legados</td>
-      <td>Representa um risco significativo para dados corporativos e infraestrutura crítica.</td>
-    </tr>
-  </tbody>
-</table>
-
-<h3>Auto-avaliação</h3>
-<p>Teste seu conhecimento sobre o tópico de hoje:</p>
-<ol>
-    <li>O que é o "Hiato na Adoção da PQC"?</li>
-    <li>Qual mecanismo específico de troca de chaves híbrida é comumente usado pelos navegadores modernos?</li>
-    <li>Por que o atraso na adoção da PQC no lado do servidor representa um risco significativo, mesmo que os navegadores estejam prontos?</li>
-</ol>"""
-references_md = "*   [Measurement Study of Post-Quantum Readiness of Internet: 2026 (arxiv.org)](https://arxiv.org/html/2606.16473)\\n*   [Post-Quantum Cryptography 2026: Real Status of PQC Adoption (tigertrust.io)](https://www.tigertrust.io/blog/post-quantum-cryptography-2026-status)\\n*   [The State of Post-Quantum Cryptography Adoption in 2026 (cybertechnologyinsights.com)](https://cybertechnologyinsights.com/whitepaper/the-state-of-post-quantum-cryptography-adoption-in-2026/)"
+  <li><strong>1. Qual é o risco mais significativo associado à lacuna na adoção da PQC do lado do servidor?</strong></li>
+  <li><strong>2. Qual versão do OpenSSL é geralmente necessária para uma configuração direta da PQC no NGINX e no Apache?</strong></li>
+  <li><strong>3. O que o termo "X25519Kyber768" representa em uma configuração TLS?</strong></li>
+</ul>"""
+references_md = "- [TigerTrust: Post-Quantum Cryptography in 2026](https://www.tigertrust.io/blog/post-quantum-cryptography-2026-status)\\n- [IEEE Spectrum: The Urgency of Post Quantum Cryptography Adoption](https://spectrum.ieee.org/post-quantum-cryptography-standards-nist)"
 
 success = update_repo(day_str, date_str, topic_en, topic_pt, file_name_prefix, category_en, category_pt, content_en, content_pt, references_md)
 print("UPDATE STATUS:", success)
