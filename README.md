@@ -18,8 +18,8 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 17 - PQC Adoption in Practice: Overcoming the Server-Side Implementation Gap (2026-07-26)](en/2026-07-26-pqc_server_side_adoption_gap.pdf)
-- **Português (PT-BR):** [Dia 17 - Adoção da PQC na Prática: Superando a Lacuna de Implementação no Servidor (2026-07-26)](pt-BR/2026-07-26-pqc_server_side_adoption_gap.pdf)
+- **English (EN):** [Day 18 - PQC in Practice: A 2026 Literature Review on Protocol-Level Transitions (2026-07-27)](en/2026-07-27-pqc_protocol_transition_review.pdf)
+- **Português (PT-BR):** [Dia 18 - Criptografia Pós-Quântica (PQC) na Prática: Uma Revisão da Literatura de 2026 sobre Transições em Nível de Protocolo (2026-07-27)](pt-BR/2026-07-27-pqc_protocol_transition_review.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -100,6 +100,9 @@ We acknowledge the original research, standards, and drafts provided by the **Na
 
 ### Daily Tracking News & Resources (2026-07-26)
 - [TigerTrust: Post-Quantum Cryptography in 2026](https://www.tigertrust.io/blog/post-quantum-cryptography-2026-status)\n- [IEEE Spectrum: The Urgency of Post Quantum Cryptography Adoption](https://spectrum.ieee.org/post-quantum-cryptography-standards-nist)
+
+### Daily Tracking News & Resources (2026-07-27)
+[Post-Quantum Cryptography in Practice: A Literature Review of Protocol-Level Transitions and Readiness](https://eprint.iacr.org/2025/1668)
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
