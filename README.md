@@ -18,8 +18,8 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 18 - PQC in Practice: A 2026 Literature Review on Protocol-Level Transitions (2026-07-27)](en/2026-07-27-pqc_protocol_transition_review.pdf)
-- **Português (PT-BR):** [Dia 18 - Criptografia Pós-Quântica (PQC) na Prática: Uma Revisão da Literatura de 2026 sobre Transições em Nível de Protocolo (2026-07-27)](pt-BR/2026-07-27-pqc_protocol_transition_review.pdf)
+- **English (EN):** [Day 19 - PQC Adoption Gap in 2026: Browser Readiness vs. Server-Side Lag (2026-07-28)](en/2026-07-28-pqc_adoption_gap_2026.pdf)
+- **Português (PT-BR):** [Dia 19 - O Hiato na Adoção da PQC em 2026: Prontidão dos Navegadores vs. Atraso no Lado do Servidor (2026-07-28)](pt-BR/2026-07-28-pqc_adoption_gap_2026.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -103,6 +103,9 @@ We acknowledge the original research, standards, and drafts provided by the **Na
 
 ### Daily Tracking News & Resources (2026-07-27)
 [Post-Quantum Cryptography in Practice: A Literature Review of Protocol-Level Transitions and Readiness](https://eprint.iacr.org/2025/1668)
+
+### Daily Tracking News & Resources (2026-07-28)
+[1] Measurement Study of Post-Quantum Readiness of Internet: 2026 (arxiv.org) [2] The State of Post-Quantum Cryptography Adoption in 2026 (cybertechnologyinsights.com)
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
