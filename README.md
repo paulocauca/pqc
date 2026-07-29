@@ -18,8 +18,8 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 19 - PQC Adoption Gap in 2026: Browser Readiness vs. Server-Side Lag (2026-07-28)](en/2026-07-28-pqc_adoption_gap_2026.pdf)
-- **Português (PT-BR):** [Dia 19 - O Hiato na Adoção da PQC em 2026: Prontidão dos Navegadores vs. Atraso no Lado do Servidor (2026-07-28)](pt-BR/2026-07-28-pqc_adoption_gap_2026.pdf)
+- **English (EN):** [Day 20 - PQC in Practice: A 2026 Status Report on Real-World Adoption (2026-07-29)](en/2026-07-29-pqc_adoption_status_report_2026.pdf)
+- **Português (PT-BR):** [Dia 20 - Criptografia Pós-Quântica (PQC) na Prática: Um Relatório de Status da Adoção no Mundo Real em 2026 (2026-07-29)](pt-BR/2026-07-29-pqc_adoption_status_report_2026.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -106,6 +106,9 @@ We acknowledge the original research, standards, and drafts provided by the **Na
 
 ### Daily Tracking News & Resources (2026-07-28)
 [1] Measurement Study of Post-Quantum Readiness of Internet: 2026 (arxiv.org) [2] The State of Post-Quantum Cryptography Adoption in 2026 (cybertechnologyinsights.com)
+
+### Daily Tracking News & Resources (2026-07-29)
+[From Early Warning Signs to the Workbench: the PQC Update 2026 Shows that the Post-Quantum Era Has Begun](https://www.cybersecurity.blog.aisec.fraunhofer.de/en/from-early-warning-signs-to-the-workbench-the-pqc-update-2026-shows-that-the-post-quantum-era-has-begun)
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
