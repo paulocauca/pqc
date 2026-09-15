@@ -18,8 +18,8 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 21 - Performance Implications of PQC in Network Protocols (2026-09-14)](en/2026-09-14-pqc_performance_network_protocols.pdf)
-- **Português (PT-BR):** [Dia 21 - Implicações de Performance da PQC em Protocolos de Rede (2026-09-14)](pt-BR/2026-09-14-pqc_performance_network_protocols.pdf)
+- **English (EN):** [Day 22 - Overcoming PQC Deployment Challenges in 2026: A Practical Guide (2026-09-15)](en/2026-09-15-pqc_deployment_challenges_2026.pdf)
+- **Português (PT-BR):** [Dia 22 - Superando os Desafios da Implantação da PQC em 2026: Um Guia Prático (2026-09-15)](pt-BR/2026-09-15-pqc_deployment_challenges_2026.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
