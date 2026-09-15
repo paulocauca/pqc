@@ -18,8 +18,8 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 20 - PQC in Practice: A 2026 Status Report on Real-World Adoption (2026-07-29)](en/2026-07-29-pqc_adoption_status_report_2026.pdf)
-- **Português (PT-BR):** [Dia 20 - Criptografia Pós-Quântica (PQC) na Prática: Um Relatório de Status da Adoção no Mundo Real em 2026 (2026-07-29)](pt-BR/2026-07-29-pqc_adoption_status_report_2026.pdf)
+- **English (EN):** [Day 21 - Performance Implications of PQC in Network Protocols (2026-09-14)](en/2026-09-14-pqc_performance_network_protocols.pdf)
+- **Português (PT-BR):** [Dia 21 - Implicações de Performance da PQC em Protocolos de Rede (2026-09-14)](pt-BR/2026-09-14-pqc_performance_network_protocols.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
