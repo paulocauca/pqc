@@ -18,8 +18,8 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 22 - Overcoming PQC Deployment Challenges in 2026: A Practical Guide (2026-09-15)](en/2026-09-15-pqc_deployment_challenges_2026.pdf)
-- **Português (PT-BR):** [Dia 22 - Superando os Desafios da Implantação da PQC em 2026: Um Guia Prático (2026-09-15)](pt-BR/2026-09-15-pqc_deployment_challenges_2026.pdf)
+- **English (EN):** [Day 23 - The Role of Hardware Security Modules (HSMs) in the PQC Transition (2026-09-16)](en/2026-09-16-pqc_hsm_transition_role.pdf)
+- **Português (PT-BR):** [Dia 23 - O Papel dos Módulos de Segurança de Hardware (HSMs) na Transição PQC (2026-09-16)](pt-BR/2026-09-16-pqc_hsm_transition_role.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -109,6 +109,9 @@ We acknowledge the original research, standards, and drafts provided by the **Na
 
 ### Daily Tracking News & Resources (2026-07-29)
 [From Early Warning Signs to the Workbench: the PQC Update 2026 Shows that the Post-Quantum Era Has Begun](https://www.cybersecurity.blog.aisec.fraunhofer.de/en/from-early-warning-signs-to-the-workbench-the-pqc-update-2026-shows-that-the-post-quantum-era-has-begun)
+
+### Daily Tracking News & Resources (2026-09-16)
+- No new references today.
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
