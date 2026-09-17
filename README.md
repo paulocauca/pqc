@@ -18,8 +18,8 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 23 - The Role of Hardware Security Modules (HSMs) in the PQC Transition (2026-09-16)](en/2026-09-16-pqc_hsm_transition_role.pdf)
-- **Português (PT-BR):** [Dia 23 - O Papel dos Módulos de Segurança de Hardware (HSMs) na Transição PQC (2026-09-16)](pt-BR/2026-09-16-pqc_hsm_transition_role.pdf)
+- **English (EN):** [Day 24 - The Importance of Crypto-Agility in the Post-Quantum Era (2026-09-17)](en/2026-09-17-crypto_agility_pqc_era.pdf)
+- **Português (PT-BR):** [Dia 24 - A Importância da Criptoagilidade na Era Pós-Quântica (2026-09-17)](pt-BR/2026-09-17-crypto_agility_pqc_era.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -112,6 +112,9 @@ We acknowledge the original research, standards, and drafts provided by the **Na
 
 ### Daily Tracking News & Resources (2026-09-16)
 - No new references today.
+
+### Daily Tracking News & Resources (2026-09-17)
+* NIST SP 800-208: Recommendation for Stateful Hash-Based Signature Schemes\n* RFC 8391: XMSS: eXtended Merkle Signature Scheme\n* FIPS 205: Stateless Hash-Based Digital Signature Standard
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
