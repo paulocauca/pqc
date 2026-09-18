@@ -18,8 +18,8 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 24 - The Importance of Crypto-Agility in the Post-Quantum Era (2026-09-17)](en/2026-09-17-crypto_agility_pqc_era.pdf)
-- **Português (PT-BR):** [Dia 24 - A Importância da Criptoagilidade na Era Pós-Quântica (2026-09-17)](pt-BR/2026-09-17-crypto_agility_pqc_era.pdf)
+- **English (EN):** [Day 25 - Understanding the PQC Migration Imperative: A Second Chance (2026-09-18)](en/2026-09-18-pqc_migration_imperative.pdf)
+- **Português (PT-BR):** [Dia 25 - Compreendendo o Imperativo da Migração PQC: Uma Segunda Chance (2026-09-18)](pt-BR/2026-09-18-pqc_migration_imperative.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -115,6 +115,9 @@ We acknowledge the original research, standards, and drafts provided by the **Na
 
 ### Daily Tracking News & Resources (2026-09-17)
 * NIST SP 800-208: Recommendation for Stateful Hash-Based Signature Schemes\n* RFC 8391: XMSS: eXtended Merkle Signature Scheme\n* FIPS 205: Stateless Hash-Based Digital Signature Standard
+
+### Daily Tracking News & Resources (2026-09-18)
+* [Cloudflare Blog: Don't let the quantum apocalypse catch you unprepared](https://blog.cloudflare.com/post-quantum-timing/)
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
