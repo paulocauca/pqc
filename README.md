@@ -18,8 +18,8 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 26 - PQC in Digital Certificates: The Transition to ML-DSA and SLH-DSA in X.509 (2026-09-19)](en/2026-09-19-pqc_x509_certificates_transition.pdf)
-- **Português (PT-BR):** [Dia 26 - PQC em Certificados Digitais: A Transição para ML-DSA e SLH-DSA no X.509 (2026-09-19)](pt-BR/2026-09-19-pqc_x509_certificates_transition.pdf)
+- **English (EN):** [Day 27 - PQC in QUIC and HTTP/3: Securing the Next-Generation Internet (2026-09-20)](en/2026-09-20-pqc_quic_http3_integration.pdf)
+- **Português (PT-BR):** [Dia 27 - PQC em QUIC e HTTP/3: Protegendo a Próxima Geração da Internet (2026-09-20)](pt-BR/2026-09-20-pqc_quic_http3_integration.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -124,6 +124,9 @@ We acknowledge the original research, standards, and drafts provided by the **Na
 - [NIST FIPS 205: Stateless Hash-based Digital Signature Standard (SLH-DSA)](https://csrc.nist.gov/pubs/fips/205/final)
 - [Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile](https://datatracker.ietf.org/doc/html/rfc5280)
 
+
+### Daily Tracking News & Resources (2026-09-20)
+[No new references for today]
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
