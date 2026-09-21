@@ -18,8 +18,8 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 27 - PQC in QUIC and HTTP/3: Securing the Next-Generation Internet (2026-09-20)](en/2026-09-20-pqc_quic_http3_integration.pdf)
-- **Português (PT-BR):** [Dia 27 - PQC em QUIC e HTTP/3: Protegendo a Próxima Geração da Internet (2026-09-20)](pt-BR/2026-09-20-pqc_quic_http3_integration.pdf)
+- **English (EN):** [Day 28 - PQC in DNSSEC: Securing the Internet's Phonebook (2026-09-21)](en/2026-09-21-pqc_dnssec_integration.pdf)
+- **Português (PT-BR):** [Dia 28 - PQC em DNSSEC: Protegendo a Lista Telefônica da Internet (2026-09-21)](pt-BR/2026-09-21-pqc_dnssec_integration.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -127,6 +127,9 @@ We acknowledge the original research, standards, and drafts provided by the **Na
 
 ### Daily Tracking News & Resources (2026-09-20)
 [No new references for today]
+
+### Daily Tracking News & Resources (2026-09-21)
+- [IETF Draft: DNSSEC signing with P-curves](https://datatracker.ietf.org/doc/draft-ietf-dnsop-dnssec-pcurves/)\n- NIST Post-Quantum Cryptography Project
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
