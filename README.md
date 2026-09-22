@@ -18,8 +18,8 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 28 - PQC in DNSSEC: Securing the Internet's Phonebook (2026-09-21)](en/2026-09-21-pqc_dnssec_integration.pdf)
-- **Português (PT-BR):** [Dia 28 - PQC em DNSSEC: Protegendo a Lista Telefônica da Internet (2026-09-21)](pt-BR/2026-09-21-pqc_dnssec_integration.pdf)
+- **English (EN):** [Day 29 - PQC in the Software Development Lifecycle (SDLC): A Forward-Looking Approach (2026-09-22)](en/2026-09-22-pqc_sdlc_integration.pdf)
+- **Português (PT-BR):** [Dia 29 - PQC no Ciclo de Vida de Desenvolvimento de Software (SDLC): Uma Abordagem Voltada para o Futuro (2026-09-22)](pt-BR/2026-09-22-pqc_sdlc_integration.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -130,6 +130,9 @@ We acknowledge the original research, standards, and drafts provided by the **Na
 
 ### Daily Tracking News & Resources (2026-09-21)
 - [IETF Draft: DNSSEC signing with P-curves](https://datatracker.ietf.org/doc/draft-ietf-dnsop-dnssec-pcurves/)\n- NIST Post-Quantum Cryptography Project
+
+### Daily Tracking News & Resources (2026-09-22)
+*   NISTIR 8413: Status Report on the Third Round of the NIST Post-Quantum Cryptography Standardization Process\n*   ETSI TR 103 619: Cryptographic Suites
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
