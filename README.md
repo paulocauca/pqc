@@ -18,8 +18,8 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 29 - PQC in the Software Development Lifecycle (SDLC): A Forward-Looking Approach (2026-09-22)](en/2026-09-22-pqc_sdlc_integration.pdf)
-- **Português (PT-BR):** [Dia 29 - PQC no Ciclo de Vida de Desenvolvimento de Software (SDLC): Uma Abordagem Voltada para o Futuro (2026-09-22)](pt-BR/2026-09-22-pqc_sdlc_integration.pdf)
+- **English (EN):** [Day 30 - Automated PQC Compliance and Auditing in CI/CD Pipelines (2026-09-23)](en/2026-09-23-pqc_cicd_compliance_auditing.pdf)
+- **Português (PT-BR):** [Dia 30 - Automação de Conformidade e Auditoria PQC em Pipelines de CI/CD (2026-09-23)](pt-BR/2026-09-23-pqc_cicd_compliance_auditing.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
