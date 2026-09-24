@@ -18,8 +18,8 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 30 - Automated PQC Compliance and Auditing in CI/CD Pipelines (2026-09-23)](en/2026-09-23-pqc_cicd_compliance_auditing.pdf)
-- **Português (PT-BR):** [Dia 30 - Automação de Conformidade e Auditoria PQC em Pipelines de CI/CD (2026-09-23)](pt-BR/2026-09-23-pqc_cicd_compliance_auditing.pdf)
+- **English (EN):** [Day 31 - PQC in DNSSEC: A Deep Dive into Implementation and Challenges (2026-09-24)](en/2026-09-24-pqc_dnssec_deep_dive.pdf)
+- **Português (PT-BR):** [Dia 31 - PQC em DNSSEC: Um Mergulho Profundo na Implementação e Desafios (2026-09-24)](pt-BR/2026-09-24-pqc_dnssec_deep_dive.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -133,6 +133,9 @@ We acknowledge the original research, standards, and drafts provided by the **Na
 
 ### Daily Tracking News & Resources (2026-09-22)
 *   NISTIR 8413: Status Report on the Third Round of the NIST Post-Quantum Cryptography Standardization Process\n*   ETSI TR 103 619: Cryptographic Suites
+
+### Daily Tracking News & Resources (2026-09-24)
+- 
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
