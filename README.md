@@ -18,8 +18,8 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 31 - PQC in DNSSEC: A Deep Dive into Implementation and Challenges (2026-09-24)](en/2026-09-24-pqc_dnssec_deep_dive.pdf)
-- **Português (PT-BR):** [Dia 31 - PQC em DNSSEC: Um Mergulho Profundo na Implementação e Desafios (2026-09-24)](pt-BR/2026-09-24-pqc_dnssec_deep_dive.pdf)
+- **English (EN):** [Day 32 - PQC for JSON Web Tokens (JWTs): Securing Stateless Authentication in the Quantum Era (2026-09-25)](en/2026-09-25-pqc_jwt_authentication.pdf)
+- **Português (PT-BR):** [Dia 32 - PQC para JSON Web Tokens (JWTs): Protegendo a Autenticação Stateless na Era Quântica (2026-09-25)](pt-BR/2026-09-25-pqc_jwt_authentication.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -136,6 +136,9 @@ We acknowledge the original research, standards, and drafts provided by the **Na
 
 ### Daily Tracking News & Resources (2026-09-24)
 - 
+
+### Daily Tracking News & Resources (2026-09-25)
+- RFC 7519: JSON Web Token (JWT)\n- NIST FIPS 204: Module-Lattice-Based Digital Signature Standard (ML-DSA)\n- IETF Drafts on PQC for JOSE
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
