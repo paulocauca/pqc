@@ -18,8 +18,8 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 32 - PQC for JSON Web Tokens (JWTs): Securing Stateless Authentication in the Quantum Era (2026-09-25)](en/2026-09-25-pqc_jwt_authentication.pdf)
-- **Português (PT-BR):** [Dia 32 - PQC para JSON Web Tokens (JWTs): Protegendo a Autenticação Stateless na Era Quântica (2026-09-25)](pt-BR/2026-09-25-pqc_jwt_authentication.pdf)
+- **English (EN):** [Day 33 - Deep Dive: ML-DSA for Secure Firmware and Over-the-Air (OTA) Updates (2026-10-17)](en/2026-10-17-mldsa_secure_firmware_ota.pdf)
+- **Português (PT-BR):** [Dia 33 - Deep Dive: ML-DSA para Firmware Seguro e Atualizações Over-the-Air (OTA) (2026-10-17)](pt-BR/2026-10-17-mldsa_secure_firmware_ota.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
