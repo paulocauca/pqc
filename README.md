@@ -18,8 +18,8 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 34 - PQC in the Linux Kernel: Signing Modules with ML-DSA (2026-10-18)](en/2026-10-18-pqc_linux_kernel_mldsa.pdf)
-- **Português (PT-BR):** [Dia 34 - PQC no Kernel Linux: Assinando Módulos com ML-DSA (2026-10-18)](pt-BR/2026-10-18-pqc_linux_kernel_mldsa.pdf)
+- **English (EN):** [Day 35 - PQC for Resource-Constrained Environments: IoT and Embedded Systems (2026-10-19)](en/2026-10-19-pqc_iot_embedded_systems.pdf)
+- **Português (PT-BR):** [Dia 35 - PQC para Ambientes com Recursos Restritos: IoT e Sistemas Embarcados (2026-10-19)](pt-BR/2026-10-19-pqc_iot_embedded_systems.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -142,6 +142,9 @@ We acknowledge the original research, standards, and drafts provided by the **Na
 
 ### Daily Tracking News & Resources (2026-10-18)
 [1] Linux Kernel Mailing List Archives. (2026). *ML-DSA Integration Efforts*. Retrieved from https://lkml.org/
+
+### Daily Tracking News & Resources (2026-10-19)
+- [NIST PQC Standardization](https://csrc.nist.gov/projects/post-quantum-cryptography)\n- [liboqs: Open Quantum Safe](https://openquantumsafe.org/)
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
