@@ -18,8 +18,8 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 35 - PQC for Resource-Constrained Environments: IoT and Embedded Systems (2026-10-19)](en/2026-10-19-pqc_iot_embedded_systems.pdf)
-- **Português (PT-BR):** [Dia 35 - PQC para Ambientes com Recursos Restritos: IoT e Sistemas Embarcados (2026-10-19)](pt-BR/2026-10-19-pqc_iot_embedded_systems.pdf)
+- **English (EN):** [Day 36 - PQC's Impact on Blockchain and Cryptocurrencies (2026-10-21)](en/2026-10-21-pqc_blockchain_impact.pdf)
+- **Português (PT-BR):** [Dia 36 - O Impacto da PQC em Blockchain e Criptomoedas (2026-10-21)](pt-BR/2026-10-21-pqc_blockchain_impact.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
