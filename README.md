@@ -18,8 +18,8 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 36 - PQC's Impact on Blockchain and Cryptocurrencies (2026-10-21)](en/2026-10-21-pqc_blockchain_impact.pdf)
-- **Português (PT-BR):** [Dia 36 - O Impacto da PQC em Blockchain e Criptomoedas (2026-10-21)](pt-BR/2026-10-21-pqc_blockchain_impact.pdf)
+- **English (EN):** [Day 37 - Performance Overhead of PQC in Real-World Protocols (2026-10-22)](en/2026-10-22-pqc_performance_overhead.pdf)
+- **Português (PT-BR):** [Dia 37 - Sobrecarga de Performance da PQC em Protocolos do Mundo Real (2026-10-22)](pt-BR/2026-10-22-pqc_performance_overhead.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
