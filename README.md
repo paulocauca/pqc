@@ -18,8 +18,8 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 33 - Deep Dive: ML-DSA for Secure Firmware and Over-the-Air (OTA) Updates (2026-10-17)](en/2026-10-17-mldsa_secure_firmware_ota.pdf)
-- **Português (PT-BR):** [Dia 33 - Deep Dive: ML-DSA para Firmware Seguro e Atualizações Over-the-Air (OTA) (2026-10-17)](pt-BR/2026-10-17-mldsa_secure_firmware_ota.pdf)
+- **English (EN):** [Day 38 - The Role of TRNGs and QRNGs in Post-Quantum Cryptography (2026-10-23)](en/2026-10-23-pqc_trng_qrng_role.pdf)
+- **Português (PT-BR):** [Dia 38 - O Papel de TRNGs e QRNGs na Criptografia Pós-Quântica (2026-10-23)](pt-BR/2026-10-23-pqc_trng_qrng_role.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -139,6 +139,15 @@ We acknowledge the original research, standards, and drafts provided by the **Na
 
 ### Daily Tracking News & Resources (2026-09-25)
 - RFC 7519: JSON Web Token (JWT)\n- NIST FIPS 204: Module-Lattice-Based Digital Signature Standard (ML-DSA)\n- IETF Drafts on PQC for JOSE
+
+### Daily Tracking News & Resources (2026-10-18)
+[1] Linux Kernel Mailing List Archives. (2026). *ML-DSA Integration Efforts*. Retrieved from https://lkml.org/
+
+### Daily Tracking News & Resources (2026-10-19)
+- [NIST PQC Standardization](https://csrc.nist.gov/projects/post-quantum-cryptography)\n- [liboqs: Open Quantum Safe](https://openquantumsafe.org/)
+
+### Daily Tracking News & Resources (2026-10-23)
+N/A
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
