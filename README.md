@@ -18,8 +18,8 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 37 - Performance Overhead of PQC in Real-World Protocols (2026-10-22)](en/2026-10-22-pqc_performance_overhead.pdf)
-- **Português (PT-BR):** [Dia 37 - Sobrecarga de Performance da PQC em Protocolos do Mundo Real (2026-10-22)](pt-BR/2026-10-22-pqc_performance_overhead.pdf)
+- **English (EN):** [Day 38 - The Role of TRNGs and QRNGs in Post-Quantum Cryptography (2026-10-23)](en/2026-10-23-pqc_trng_qrng_role.pdf)
+- **Português (PT-BR):** [Dia 38 - O Papel de TRNGs e QRNGs na Criptografia Pós-Quântica (2026-10-23)](pt-BR/2026-10-23-pqc_trng_qrng_role.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -145,6 +145,9 @@ We acknowledge the original research, standards, and drafts provided by the **Na
 
 ### Daily Tracking News & Resources (2026-10-19)
 - [NIST PQC Standardization](https://csrc.nist.gov/projects/post-quantum-cryptography)\n- [liboqs: Open Quantum Safe](https://openquantumsafe.org/)
+
+### Daily Tracking News & Resources (2026-10-23)
+N/A
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
