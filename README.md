@@ -18,7 +18,7 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 33 - Deep Dive: ML-DSA for Secure Firmware and Over-the-Air (OTA) Updates (2026-10-17)](en/2026-10-17-mldsa_secure_firmware_ota.pdf)
+- **English (EN):** [Day 39 - Deep Dive: Understanding CRYSTALS-Kyber (ML-KEM) (2026-10-24)](en/2026-10-24-deep_dive_crystals_kyber.pdf)
 - **Português (PT-BR):** [Dia 33 - Deep Dive: ML-DSA para Firmware Seguro e Atualizações Over-the-Air (OTA) (2026-10-17)](pt-BR/2026-10-17-mldsa_secure_firmware_ota.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
