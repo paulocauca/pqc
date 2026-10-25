@@ -18,8 +18,8 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 39 - Deep Dive: Understanding CRYSTALS-Kyber (ML-KEM) (2026-10-24)](en/2026-10-24-deep_dive_crystals_kyber.pdf)
-- **Português (PT-BR):** [Dia 39 - Deep Dive: Entendendo o CRYSTALS-Kyber (ML-KEM) (2026-10-24)](pt-BR/2026-10-24-deep_dive_crystals_kyber.pdf)
+- **English (EN):** [Day 40 - Deep Dive: Understanding CRYSTALS-Dilithium (ML-DSA) (2026-10-25)](en/2026-10-25-deep_dive_crystals_dilithium.pdf)
+- **Português (PT-BR):** [Dia 40 - Mergulho Profundo: Entendendo o CRYSTALS-Dilithium (ML-DSA) (2026-10-25)](pt-BR/2026-10-25-deep_dive_crystals_dilithium.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -139,6 +139,9 @@ We acknowledge the original research, standards, and drafts provided by the **Na
 
 ### Daily Tracking News & Resources (2026-09-25)
 - RFC 7519: JSON Web Token (JWT)\n- NIST FIPS 204: Module-Lattice-Based Digital Signature Standard (ML-DSA)\n- IETF Drafts on PQC for JOSE
+
+### Daily Tracking News & Resources (2026-10-25)
+- [NIST FIPS 204](https://csrc.nist.gov/pubs/fips/204/final)
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
