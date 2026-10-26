@@ -18,8 +18,8 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 40 - Deep Dive: Understanding CRYSTALS-Dilithium (ML-DSA) (2026-10-25)](en/2026-10-25-deep_dive_crystals_dilithium.pdf)
-- **Português (PT-BR):** [Dia 40 - Mergulho Profundo: Entendendo o CRYSTALS-Dilithium (ML-DSA) (2026-10-25)](pt-BR/2026-10-25-deep_dive_crystals_dilithium.pdf)
+- **English (EN):** [Day 41 - Deep Dive: Understanding SLH-DSA (SPHINCS+) (2026-10-26)](en/2026-10-26-deep_dive_slh_dsa.pdf)
+- **Português (PT-BR):** [Dia 41 - Mergulho Profundo: Entendendo o SLH-DSA (SPHINCS+) (2026-10-26)](pt-BR/2026-10-26-deep_dive_slh_dsa.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -142,6 +142,9 @@ We acknowledge the original research, standards, and drafts provided by the **Na
 
 ### Daily Tracking News & Resources (2026-10-25)
 - [NIST FIPS 204](https://csrc.nist.gov/pubs/fips/204/final)
+
+### Daily Tracking News & Resources (2026-10-26)
+- [NIST FIPS 205 (Draft): Stateless Hash-Based Digital Signature Standard](https://csrc.nist.gov/pubs/fips/205/ipd)
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
