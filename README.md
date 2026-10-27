@@ -18,8 +18,8 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 41 - Deep Dive: Understanding SLH-DSA (SPHINCS+) (2026-10-26)](en/2026-10-26-deep_dive_slh_dsa.pdf)
-- **Português (PT-BR):** [Dia 41 - Mergulho Profundo: Entendendo o SLH-DSA (SPHINCS+) (2026-10-26)](pt-BR/2026-10-26-deep_dive_slh_dsa.pdf)
+- **English (EN):** [Day 42 - PQC Standards Showdown: ML-KEM vs. ML-DSA vs. SLH-DSA (2026-10-27)](en/2026-10-27-pqc_standards_comparison.pdf)
+- **Português (PT-BR):** [Dia 42 - Comparativo dos Padrões PQC do NIST: ML-KEM vs. ML-DSA vs. SLH-DSA (2026-10-27)](pt-BR/2026-10-27-pqc_standards_comparison.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
