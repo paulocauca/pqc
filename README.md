@@ -18,8 +18,8 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 42 - PQC Standards Showdown: ML-KEM vs. ML-DSA vs. SLH-DSA (2026-10-27)](en/2026-10-27-pqc_standards_comparison.pdf)
-- **Português (PT-BR):** [Dia 42 - Comparativo dos Padrões PQC do NIST: ML-KEM vs. ML-DSA vs. SLH-DSA (2026-10-27)](pt-BR/2026-10-27-pqc_standards_comparison.pdf)
+- **English (EN):** [Day 43 - Validating PQC Implementations in Network Protocols (2026-10-28)](en/2026-10-28-pqc_implementation_validation.pdf)
+- **Português (PT-BR):** [Dia 43 - Validação de Implementações PQC em Protocolos de Rede (2026-10-28)](pt-BR/2026-10-28-pqc_implementation_validation.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -145,6 +145,9 @@ We acknowledge the original research, standards, and drafts provided by the **Na
 
 ### Daily Tracking News & Resources (2026-10-26)
 - [NIST FIPS 205 (Draft): Stateless Hash-Based Digital Signature Standard](https://csrc.nist.gov/pubs/fips/205/ipd)
+
+### Daily Tracking News & Resources (2026-10-28)
+*   [NIST Computer Security Resource Center: Post-Quantum Cryptography](https://csrc.nist.gov/projects/post-quantum-cryptography)\n*   [ETSI Quantum-Safe Cryptography (QSC)](https://www.etsi.org/technologies/quantum-safe-cryptography)\n*   [Open Quantum Safe Project](https://openquantumsafe.org/)
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
