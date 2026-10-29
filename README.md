@@ -18,8 +18,8 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 43 - Validating PQC Implementations in Network Protocols (2026-10-28)](en/2026-10-28-pqc_implementation_validation.pdf)
-- **Português (PT-BR):** [Dia 43 - Validação de Implementações PQC em Protocolos de Rede (2026-10-28)](pt-BR/2026-10-28-pqc_implementation_validation.pdf)
+- **English (EN):** [Day 44 - The Future of PQC: Beyond the First NIST Standards (2026-10-29)](en/2026-10-29-pqc_future_beyond_nist.pdf)
+- **Português (PT-BR):** [Dia 44 - O Futuro da PQC: Além dos Primeiros Padrões do NIST (2026-10-29)](pt-BR/2026-10-29-pqc_future_beyond_nist.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
