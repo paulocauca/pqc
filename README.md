@@ -18,8 +18,8 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 44 - The Future of PQC: Beyond the First NIST Standards (2026-10-29)](en/2026-10-29-pqc_future_beyond_nist.pdf)
-- **Português (PT-BR):** [Dia 44 - O Futuro da PQC: Além dos Primeiros Padrões do NIST (2026-10-29)](pt-BR/2026-10-29-pqc_future_beyond_nist.pdf)
+- **English (EN):** [Day 45 - Understanding NIST's PQC Security Levels (2026-10-30)](en/2026-10-30-pqc_nist_security_levels.pdf)
+- **Português (PT-BR):** [Dia 45 - Entendendo os Níveis de Segurança PQC do NIST (2026-10-30)](pt-BR/2026-10-30-pqc_nist_security_levels.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -148,6 +148,9 @@ We acknowledge the original research, standards, and drafts provided by the **Na
 
 ### Daily Tracking News & Resources (2026-10-28)
 *   [NIST Computer Security Resource Center: Post-Quantum Cryptography](https://csrc.nist.gov/projects/post-quantum-cryptography)\n*   [ETSI Quantum-Safe Cryptography (QSC)](https://www.etsi.org/technologies/quantum-safe-cryptography)\n*   [Open Quantum Safe Project](https://openquantumsafe.org/)
+
+### Daily Tracking News & Resources (2026-10-30)
+* [NIST Post-Quantum Cryptography Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
