@@ -18,8 +18,8 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 45 - Understanding NIST's PQC Security Levels (2026-10-30)](en/2026-10-30-pqc_nist_security_levels.pdf)
-- **Português (PT-BR):** [Dia 45 - Entendendo os Níveis de Segurança PQC do NIST (2026-10-30)](pt-BR/2026-10-30-pqc_nist_security_levels.pdf)
+- **English (EN):** [Day 46 - Performance vs. Security Trade-offs in PQC Algorithms (2026-10-31)](en/2026-10-31-pqc_performance_security_tradeoffs.pdf)
+- **Português (PT-BR):** [Dia 46 - Trade-offs entre Performance e Segurança em Algoritmos PQC (2026-10-31)](pt-BR/2026-10-31-pqc_performance_security_tradeoffs.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
