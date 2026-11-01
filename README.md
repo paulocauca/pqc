@@ -18,8 +18,8 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 46 - Performance vs. Security Trade-offs in PQC Algorithms (2026-10-31)](en/2026-10-31-pqc_performance_security_tradeoffs.pdf)
-- **Português (PT-BR):** [Dia 46 - Trade-offs entre Performance e Segurança em Algoritmos PQC (2026-10-31)](pt-BR/2026-10-31-pqc_performance_security_tradeoffs.pdf)
+- **English (EN):** [Day 47 - PQC in Email Security: The Path to Quantum-Resistant S/MIME and PGP/GPG (2026-11-01)](en/2026-11-01-pqc_email_security_smime_pgp.pdf)
+- **Português (PT-BR):** [Dia 47 - PQC na Segurança de E-mail: O Caminho para S/MIME e PGP/GPG Quântico-Resistentes (2026-11-01)](pt-BR/2026-11-01-pqc_email_security_smime_pgp.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -151,6 +151,9 @@ We acknowledge the original research, standards, and drafts provided by the **Na
 
 ### Daily Tracking News & Resources (2026-10-30)
 * [NIST Post-Quantum Cryptography Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
+
+### Daily Tracking News & Resources (2026-11-01)
+N/A
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
