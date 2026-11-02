@@ -18,8 +18,8 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 47 - PQC in Email Security: The Path to Quantum-Resistant S/MIME and PGP/GPG (2026-11-01)](en/2026-11-01-pqc_email_security_smime_pgp.pdf)
-- **Português (PT-BR):** [Dia 47 - PQC na Segurança de E-mail: O Caminho para S/MIME e PGP/GPG Quântico-Resistentes (2026-11-01)](pt-BR/2026-11-01-pqc_email_security_smime_pgp.pdf)
+- **English (EN):** [Day 48 - The Role of the IETF in Standardizing Post-Quantum Cryptography for the Internet (2026-11-02)](en/2026-11-02-ietf_pqc_standardization.pdf)
+- **Português (PT-BR):** [Dia 48 - O Papel da IETF na Padronização da Criptografia Pós-Quântica para a Internet (2026-11-02)](pt-BR/2026-11-02-ietf_pqc_standardization.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -154,6 +154,9 @@ We acknowledge the original research, standards, and drafts provided by the **Na
 
 ### Daily Tracking News & Resources (2026-11-01)
 N/A
+
+### Daily Tracking News & Resources (2026-11-02)
+- [draft-ietf-tls-pqc-kem](https://datatracker.ietf.org/doc/draft-ietf-tls-pqc-kem/)\n- [draft-ietf-ipsecme-pqc-ikev2](https://datatracker.ietf.org/doc/draft-ietf-ipsecme-pqc-ikev2/)\n- [draft-ietf-dnsop-pqc-dnssec](https://datatracker.ietf.org/doc/draft-ietf-dnsop-pqc-dnssec/)
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
