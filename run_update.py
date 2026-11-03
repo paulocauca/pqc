@@ -3,132 +3,130 @@ import sys
 sys.path.append('/home/rycz/pqc/scripts')
 from daily_updater import update_repo
 
-day_str = "14"
-date_str = "2026-07-23"
-topic_en = "PQC Adoption in the Wild: A Look at Real-World Data"
-topic_pt = "Adoção da PQC no Mundo Real: Uma Análise de Dados Concretos"
-file_name_prefix = "pqc_adoption_real_world_data"
+day_str = "36"
+date_str = "2026-10-21"
+topic_en = "PQC's Impact on Blockchain and Cryptocurrencies"
+topic_pt = "O Impacto da PQC em Blockchain e Criptomoedas"
+file_name_prefix = "pqc_blockchain_impact"
 category_en = "PQC Adoption & Industry Status"
-category_pt = "Adoção da PQC & Status da Indústria"
-content_en = """<h2>PQC Adoption in the Wild: A Look at Real-World Data</h2>
-<p>While the standardization of post-quantum algorithms like ML-KEM and ML-DSA is a monumental step, the real measure of success is their adoption in live internet protocols. A recent study from researchers at the University of Illinois at Urbana-Champaign provides a rare, data-driven look into the actual deployment of PQC in critical services like SSH, offering a crucial reality check on the global migration progress.</p>
+category_pt = "Adoção da PQC e Status da Indústria"
+content_en = """<h2>PQC's Impact on Blockchain and Cryptocurrencies</h2>
+<p>As quantum computers become more powerful, the cryptographic foundations of blockchain and cryptocurrencies face an existential threat. This study explores the vulnerabilities and the ongoing transition to quantum-resistant solutions.</p>
 
-<h3>The PQC Network Instrument: Measuring the Transition</h3>
-<p>To understand real-world adoption, researchers developed a "PQC network instrument" to passively monitor traffic at a major supercomputing center. This allows for large-scale measurement without disrupting services, providing a unique vantage point on which cryptographic algorithms are being negotiated in the wild. The primary focus was on SSH and TLS, two of the most fundamental protocols for secure communication on the internet.</p>
+<h3>The Quantum Threat to Blockchain</h3>
+<p>Blockchain's security relies heavily on classical cryptographic algorithms, primarily the Elliptic Curve Digital Signature Algorithm (ECDSA) for digital signatures. These signatures are used to authorize transactions and prove ownership of assets. Shor's algorithm, which can run on a sufficiently powerful quantum computer, can break ECDSA, allowing malicious actors to forge signatures and steal funds.</p>
 
 <div class="highlight-box">
-  <p><strong>Key Finding:</strong> The study revealed a nascent but growing adoption of PQC in SSH. The hybrid algorithm <code>sntrup761x25519-sha512@openssh.com</code> (a combination of a PQC algorithm and a classic Elliptic Curve algorithm) was detected, showing that major providers are beginning to experiment with and deploy quantum-resistant key exchange mechanisms. However, the overall adoption rate remains low, highlighting the significant work ahead.</p>
+  <p><strong>Key Vulnerability:</strong> Address reuse. When a cryptocurrency address is used multiple times, its public key is exposed, making it a target for quantum attacks.</p>
 </div>
 
-<h3>Adoption Rates: A Snapshot of Progress</h3>
-<p>The research provides concrete, albeit early, metrics on the state of the PQC transition. This data is critical for understanding the gap between standards availability and real-world implementation.</p>
+<h3>Transitioning to Quantum-Resistant Blockchains</h3>
+<p>The blockchain community is actively researching and developing quantum-resistant solutions. The primary approach is to replace ECDSA with PQC digital signature algorithms like ML-DSA and SLH-DSA.</p>
+
+<h4>Key Challenges in the Transition</h4>
+<ul>
+    <li><b>Signature Size:</b> PQC signature algorithms often have larger signature sizes compared to ECDSA, which can increase transaction size and fees.</li>
+    <li><b>Verification Time:</b> PQC algorithms may have different performance characteristics, impacting transaction verification times and overall network throughput.</li>
+    <li><b>Forking:</b> Upgrading a blockchain to be quantum-resistant often requires a hard fork, which can be a contentious and disruptive process.</li>
+</ul>
 
 <table class="comparison-table">
+  <caption>ECDSA vs. PQC Signatures (Illustrative)</caption>
   <thead>
     <tr>
-      <th>Protocol</th>
-      <th>PQC Implementation Status</th>
-      <th>Observed Adoption Rate (at NCSA)</th>
-      <th>Key Takeaway</th>
+      <th>Algorithm</th>
+      <th>Key Size (bytes)</th>
+      <th>Signature Size (bytes)</th>
+      <th>Quantum Resistance</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><strong>SSH (Secure Shell)</strong></td>
-      <td>Hybrid KEX available (e.g., in OpenSSH)</td>
-      <td>~0.029% of connections</td>
-      <td>Adoption is measurable but still in its infancy. The use of hybrid modes is the clear migration path.</td>
+      <td>ECDSA (secp256k1)</td>
+      <td>32 (private), 65 (uncompressed public)</td>
+      <td>64-72</td>
+      <td>No</td>
     </tr>
     <tr>
-      <td><strong>TLS (Transport Layer Security)</strong></td>
-      <td>Implementations exist (e.g., in Chrome via hybrid KEMs)</td>
-      <td>Not explicitly measured in this study, but noted as an area of active deployment by major browsers.</td>
-      <td>Browser-side adoption is leading, but server-side readiness remains a major hurdle.</td>
+      <td>ML-DSA-44</td>
+      <td>~1.3KB (private), ~1.3KB (public)</td>
+      <td>~2.4KB</td>
+      <td>Yes</td>
     </tr>
-    <tr>
-      <td><strong>RDP (Remote Desktop Protocol)</strong></td>
-      <td>No simple PQC solution available</td>
-      <td>0%</td>
-      <td>Highlights a critical gap, as legacy and proprietary protocols often lag in cryptographic agility.</td>
+     <tr>
+      <td>SLH-DSA-128s</td>
+      <td>~32 (private), ~16 (public)</td>
+      <td>~7.8KB</td>
+      <td>Yes</td>
     </tr>
   </tbody>
 </table>
-
-<h3>Challenges and Migration Pathways</h3>
-<p>The study underscores that the transition is not just about having standardized algorithms; it involves a complex ecosystem of software libraries, protocol implementations, and system administration practices. Key challenges include:</p>
-<ul>
-    <li><strong>Server-Side Lag:</strong> While client-side applications like browsers are adopting PQC, many servers are not yet configured to negotiate PQC-enabled connections.</li>
-    <li><strong>Legacy Systems:</strong> The continued use of deprecated classical algorithms in some connections poses an immediate security risk and indicates a lack of crypto-agility that will also hinder PQC migration.</li>
-    <li><strong>Protocol Complexity:</strong> Integrating new, larger keys and different cryptographic primitives into established protocols without breaking compatibility is a significant engineering effort.</li>
-</ul>
-<p>The clear pathway forward, as demonstrated by the observed SSH traffic, is the use of <strong>hybrid mechanisms</strong>. This approach combines a classical and a post-quantum algorithm, ensuring security against both current and future threats and providing a safety net in case of unforeseen weaknesses in the new PQC algorithms.</p>
 
 <h3>Daily Quiz</h3>
 <ol>
-    <li>What is the primary advantage of using a "hybrid" key exchange mechanism for PQC adoption?</li>
-    <li>According to the study, which internet protocol showed a measurable (though small) adoption of a PQC algorithm?</li>
-    <li>What is meant by "server-side lag" in the context of the PQC transition?</li>
+  <li>What is the primary quantum threat to cryptocurrencies like Bitcoin?</li>
+  <li>What is one of the main challenges of transitioning a blockchain to use PQC algorithms?</li>
+  <li>Which NIST-standardized PQC algorithm is a candidate for replacing ECDSA in blockchains?</li>
 </ol>"""
-content_pt = """<h2>Adoção da PQC no Mundo Real: Uma Análise de Dados Concretos</h2>
-<p>Embora a padronização de algoritmos pós-quânticos como o ML-KEM e o ML-DSA seja um passo monumental, a verdadeira medida de sucesso é a sua adoção em protocolos de internet ativos. Um estudo recente de pesquisadores da Universidade de Illinois em Urbana-Champaign oferece uma visão rara, baseada em dados, da implementação real da PQC em serviços críticos como o SSH, fornecendo uma verificação de realidade crucial sobre o progresso da migração global.</p>
+content_pt = """<h2>O Impacto da PQC em Blockchain e Criptomoedas</h2>
+<p>À medida que os computadores quânticos se tornam mais poderosos, as bases criptográficas do blockchain e das criptomoedas enfrentam uma ameaça existencial. Este estudo explora as vulnerabilidades e a transição em andamento para soluções quântico-resistentes.</p>
 
-<h3>O Instrumento de Rede PQC: Medindo a Transição</h3>
-<p>Para entender a adoção no mundo real, os pesquisadores desenvolveram um "instrumento de rede PQC" para monitorar passivamente o tráfego em um grande centro de supercomputação. Isso permite a medição em larga escala sem interromper os serviços, oferecendo um ponto de vista único sobre quais algoritmos criptográficos estão sendo negociados em campo. O foco principal foi o SSH e o TLS, dois dos protocolos mais fundamentais para a comunicação segura na internet.</p>
+<h3>A Ameaça Quântica ao Blockchain</h3>
+<p>A segurança do blockchain depende fortemente de algoritmos criptográficos clássicos, principalmente o Elliptic Curve Digital Signature Algorithm (ECDSA) para assinaturas digitais. Essas assinaturas são usadas para autorizar transações e provar a propriedade de ativos. O algoritmo de Shor, que pode ser executado em um computador quântico suficientemente poderoso, pode quebrar o ECDSA, permitindo que agentes mal-intencionados falsifiquem assinaturas e roubem fundos.</p>
 
 <div class="highlight-box">
-  <p><strong>Principal Descoberta:</strong> O estudo revelou uma adoção nascente, mas crescente, da PQC no SSH. O algoritmo híbrido <code>sntrup761x25519-sha512@openssh.com</code> (a combinação de um algoritmo PQC e um algoritmo clássico de Curva Elíptica) foi detectado, mostrando que grandes provedores estão começando a experimentar e implantar mecanismos de troca de chaves resistentes à computação quântica. No entanto, a taxa de adoção geral permanece baixa, destacando o significativo trabalho que ainda está por vir.</p>
+  <p><strong>Principal Vulnerabilidade:</strong> Reutilização de endereços. Quando um endereço de criptomoeda é usado várias vezes, sua chave pública é exposta, tornando-o um alvo para ataques quânticos.</p>
 </div>
 
-<h3>Taxas de Adoção: Um Retrato do Progresso</h3>
-<p>A pesquisa fornece métricas concretas, embora iniciais, sobre o estado da transição para a PQC. Esses dados são críticos para entender a lacuna entre a disponibilidade dos padrões e a implementação no mundo real.</p>
+<h3>Transição para Blockchains Quântico-Resistentes</h3>
+<p>A comunidade blockchain está pesquisando e desenvolvendo ativamente soluções quântico-resistentes. A abordagem principal é substituir o ECDSA por algoritmos de assinatura digital PQC como ML-DSA e SLH-DSA.</p>
+
+<h4>Principais Desafios na Transição</h4>
+<ul>
+    <li><b>Tamanho da Assinatura:</b> Os algoritmos de assinatura PQC geralmente têm tamanhos de assinatura maiores em comparação com o ECDSA, o que pode aumentar o tamanho da transação e as taxas.</li>
+    <li><b>Tempo de Verificação:</b> Os algoritmos PQC podem ter características de desempenho diferentes, impactando os tempos de verificação de transações e o rendimento geral da rede.</li>
+    <li><b>Forking:</b> A atualização de um blockchain para ser quântico-resistente geralmente requer um hard fork, que pode ser um processo controverso e disruptivo.</li>
+</ul>
 
 <table class="comparison-table">
+  <caption>ECDSA vs. Assinaturas PQC (Ilustrativo)</caption>
   <thead>
     <tr>
-      <th>Protocolo</th>
-      <th>Status da Implementação PQC</th>
-      <th>Taxa de Adoção Observada (no NCSA)</th>
-      <th>Principal Conclusão</th>
+      <th>Algoritmo</th>
+      <th>Tamanho da Chave (bytes)</th>
+      <th>Tamanho da Assinatura (bytes)</th>
+      <th>Resistência Quântica</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><strong>SSH (Secure Shell)</strong></td>
-      <td>KEX híbrido disponível (ex: no OpenSSH)</td>
-      <td>~0.029% das conexões</td>
-      <td>A adoção é mensurável, mas ainda está em sua infância. O uso de modos híbridos é o caminho claro para a migração.</td>
+      <td>ECDSA (secp256k1)</td>
+      <td>32 (privada), 65 (pública não comprimida)</td>
+      <td>64-72</td>
+      <td>Não</td>
     </tr>
     <tr>
-      <td><strong>TLS (Transport Layer Security)</strong></td>
-      <td>Implementações existem (ex: no Chrome via KEMs híbridos)</td>
-      <td>Não medido explicitamente neste estudo, mas notado como uma área de implantação ativa pelos principais navegadores.</td>
-      <td>A adoção do lado do cliente (navegador) está liderando, mas a prontidão do lado do servidor continua sendo um grande obstáculo.</td>
+      <td>ML-DSA-44</td>
+      <td>~1.3KB (privada), ~1.3KB (pública)</td>
+      <td>~2.4KB</td>
+      <td>Sim</td>
     </tr>
-    <tr>
-      <td><strong>RDP (Remote Desktop Protocol)</strong></td>
-      <td>Nenhuma solução PQC simples disponível</td>
-      <td>0%</td>
-      <td>Destaca uma lacuna crítica, pois protocolos legados e proprietários frequentemente ficam para trás em agilidade criptográfica.</td>
+     <tr>
+      <td>SLH-DSA-128s</td>
+      <td>~32 (privada), ~16 (pública)</td>
+      <td>~7.8KB</td>
+      <td>Sim</td>
     </tr>
   </tbody>
 </table>
 
-<h3>Desafios e Caminhos para a Migração</h3>
-<p>O estudo ressalta que a transição não se resume a ter algoritmos padronizados; envolve um ecossistema complexo de bibliotecas de software, implementações de protocolos e práticas de administração de sistemas. Os principais desafios incluem:</p>
-<ul>
-    <li><strong>Atraso do Lado do Servidor (Server-Side Lag):</strong> Enquanto aplicações do lado do cliente, como navegadores, estão adotando a PQC, muitos servidores ainda não estão configurados para negociar conexões habilitadas para PQC.</li>
-    <li><strong>Sistemas Legados:</strong> O uso contínuo de algoritmos clássicos obsoletos em algumas conexões representa um risco de segurança imediato e indica uma falta de agilidade criptográfica que também dificultará a migração para a PQC.</li>
-    <li><strong>Complexidade do Protocolo:</strong> Integrar chaves novas e maiores e primitivas criptográficas diferentes em protocolos estabelecidos sem quebrar a compatibilidade é um esforço de engenharia significativo.</li>
-</ul>
-<p>O caminho claro a seguir, conforme demonstrado pelo tráfego SSH observado, é o uso de <strong>mecanismos híbridos</strong>. Essa abordagem combina um algoritmo clássico e um pós-quântico, garantindo segurança contra ameaças atuais e futuras e fornecendo uma rede de segurança em caso de fraquezas imprevistas nos novos algoritmos PQC.</p>
-
 <h3>Auto-avaliação</h3>
 <ol>
-    <li>Qual é a principal vantagem de usar um mecanismo de troca de chaves "híbrido" para a adoção da PQC?</li>
-    <li>De acordo com o estudo, qual protocolo de internet mostrou uma adoção mensurável (embora pequena) de um algoritmo PQC?</li>
-    <li>O que significa "atraso do lado do servidor" (server-side lag) no contexto da transição para a PQC?</li>
+  <li>Qual é a principal ameaça quântica para criptomoedas como o Bitcoin?</li>
+  <li>Qual é um dos principais desafios da transição de um blockchain para usar algoritmos PQC?</li>
+  <li>Qual algoritmo PQC padronizado pelo NIST é um candidato para substituir o ECDSA em blockchains?</li>
 </ol>"""
-references_md = "- [Post-Quantum Cryptography (PQC) Network Instrument: Measuring PQC Adoption Rates and Identifying Migration Pathways](https://arxiv.org/html/2408.00054v3)"
+references_md = ""
 
 success = update_repo(day_str, date_str, topic_en, topic_pt, file_name_prefix, category_en, category_pt, content_en, content_pt, references_md)
 print("UPDATE STATUS:", success)
