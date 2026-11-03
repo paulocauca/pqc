@@ -18,8 +18,8 @@ The main objectives of this repository are:
 
 Here are the direct links to the latest study sheets and news digests:
 
-- **English (EN):** [Day 48 - The Role of the IETF in Standardizing Post-Quantum Cryptography for the Internet (2026-11-02)](en/2026-11-02-ietf_pqc_standardization.pdf)
-- **Português (PT-BR):** [Dia 48 - O Papel da IETF na Padronização da Criptografia Pós-Quântica para a Internet (2026-11-02)](pt-BR/2026-11-02-ietf_pqc_standardization.pdf)
+- **English (EN):** [Day 49 - The Challenge of PQC Adoption: Why is the Server-Side Lagging? (2026-11-03)](en/2026-11-03-pqc_server_side_lag_deep_dive.pdf)
+- **Português (PT-BR):** [Dia 49 - O Desafio da Adoção PQC: Por Que o Lado do Servidor Está Atrasado? (2026-11-03)](pt-BR/2026-11-03-pqc_server_side_lag_deep_dive.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
