@@ -156,6 +156,10 @@ N/A
 ### Daily Tracking News & Resources (2026-11-02)
 - [draft-ietf-tls-pqc-kem](https://datatracker.ietf.org/doc/draft-ietf-tls-pqc-kem/)\n- [draft-ietf-ipsecme-pqc-ikev2](https://datatracker.ietf.org/doc/draft-ietf-ipsecme-pqc-ikev2/)\n- [draft-ietf-dnsop-pqc-dnssec](https://datatracker.ietf.org/doc/draft-ietf-dnsop-pqc-dnssec/)
 
+### Daily Tracking News & Resources (2026-11-05)
+*   [IACR ePrint Archive](https://eprint.iacr.org/)
+*   [NIST Computer Security Resource Center](https://csrc.nist.gov/projects/post-quantum-cryptography)
+
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
 *   [PQC Standards Portal](https://csrc.nist.gov/projects/post-quantum-cryptography/post-quantum-cryptography-standardization)
