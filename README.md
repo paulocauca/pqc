@@ -160,6 +160,9 @@ N/A
 *   [IACR ePrint Archive](https://eprint.iacr.org/)
 *   [NIST Computer Security Resource Center](https://csrc.nist.gov/projects/post-quantum-cryptography)
 
+### Daily Tracking News & Resources (2026-11-12)
+- No references for today.
+
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
 *   [PQC Standards Portal](https://csrc.nist.gov/projects/post-quantum-cryptography/post-quantum-cryptography-standardization)
