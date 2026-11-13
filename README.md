@@ -163,6 +163,9 @@ N/A
 ### Daily Tracking News & Resources (2026-11-12)
 - No references for today.
 
+### Daily Tracking News & Resources (2026-11-13)
+[1] NIST. Post-Quantum Cryptography. https://csrc.nist.gov/projects/post-quantum-cryptography
+
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
 *   [PQC Standards Portal](https://csrc.nist.gov/projects/post-quantum-cryptography/post-quantum-cryptography-standardization)
