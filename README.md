@@ -169,6 +169,12 @@ N/A
 ### Daily Tracking News & Resources (2026-11-15)
 [HACL* Project](https://hacspec.github.io/)
 
+### Daily Tracking News & Resources (2026-11-16)
+* [IAB Workshop Report: Post-Quantum Authentication — Lessons from Prague (IETF Blog)](https://ietf.org/blog/iab-pq-workshop-impressions)
+* [IETF Draft: Use of Composite ML-DSA in TLS 1.3 (draft-ietf-tls-composite-mldsa)](https://datatracker.ietf.org/doc/html/draft-ietf-tls-composite-mldsa-00)
+* [IETF Draft: Use of SLH-DSA in TLS 1.3 (draft-reddy-tls-slhdsa)](https://datatracker.ietf.org/doc/html/draft-reddy-tls-slhdsa-02)
+* [IETF Draft: PQ/T Hybrid Authentication with Dual Certificates in TLS 1.3 (draft-yusef-tls-pqt-dual-certs)](https://ietf.org/archive/id/draft-yusef-tls-pqt-dual-certs-03.html)
+
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
 *   [PQC Standards Portal](https://csrc.nist.gov/projects/post-quantum-cryptography/post-quantum-cryptography-standardization)
