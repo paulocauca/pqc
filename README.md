@@ -19,10 +19,10 @@ The main objectives of this repository are:
 Here are the direct links to the latest study sheets and news digests:
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
-- **English (EN):** [Day 38 - The Role of TRNGs and QRNGs in Post-Quantum Cryptography (2026-10-23)](en/2026-10-23-pqc_trng_qrng_role.pdf)
-- **Português (PT-BR):** [Dia 38 - O Papel de TRNGs e QRNGs na Criptografia Pós-Quântica (2026-10-23)](pt-BR/2026-10-23-pqc_trng_qrng_role.pdf)
-- **English (EN):** [Day 49 - The Challenge of PQC Adoption: Why is the Server-Side Lagging? (2026-11-03)](en/2026-11-03-pqc_server_side_lag_deep_dive.pdf)
-- **Português (PT-BR):** [Dia 49 - O Desafio da Adoção PQC: Por Que o Lado do Servidor Está Atrasado? (2026-11-03)](pt-BR/2026-11-03-pqc_server_side_lag_deep_dive.pdf)
+- **English (EN):** [Day 59 - Empirical Analysis of Global PQC Adoption in SSH Infrastructure: SNTRUP761 vs. ML-KEM (2026-11-17)](en/2026-11-17-pqc_ssh_global_adoption_empirical.pdf)
+- **Português (PT-BR):** [Dia 59 - Análise Empírica da Adoção Global de PQC na Infraestrutura SSH: SNTRUP761 vs. ML-KEM (2026-11-17)](pt-BR/2026-11-17-pqc_ssh_global_adoption_empirical.pdf)
+- **English (EN):** [Day 59 - Empirical Analysis of Global PQC Adoption in SSH Infrastructure: SNTRUP761 vs. ML-KEM (2026-11-17)](en/2026-11-17-pqc_ssh_global_adoption_empirical.pdf)
+- **Português (PT-BR):** [Dia 59 - Análise Empírica da Adoção Global de PQC na Infraestrutura SSH: SNTRUP761 vs. ML-KEM (2026-11-17)](pt-BR/2026-11-17-pqc_ssh_global_adoption_empirical.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -188,6 +188,11 @@ N/A
 * [IETF Draft: Use of Composite ML-DSA in TLS 1.3 (draft-ietf-tls-composite-mldsa)](https://datatracker.ietf.org/doc/html/draft-ietf-tls-composite-mldsa-00)
 * [IETF Draft: Use of SLH-DSA in TLS 1.3 (draft-reddy-tls-slhdsa)](https://datatracker.ietf.org/doc/html/draft-reddy-tls-slhdsa-02)
 * [IETF Draft: PQ/T Hybrid Authentication with Dual Certificates in TLS 1.3 (draft-yusef-tls-pqt-dual-certs)](https://ietf.org/archive/id/draft-yusef-tls-pqt-dual-certs-03.html)
+
+### Daily Tracking News & Resources (2026-11-17)
+* [ArXiv Preprint: Empirical Study of Post-Quantum Cryptography Adoption Status in SSH Infrastructure (Haque et al., Bitsight Technologies, Nov 2026)](https://arxiv.org/html/2611.09703v1)
+* [OpenSSH Post-Quantum Cryptography Specifications & ML-KEM Integration](https://www.openssh.org/pq.html)
+* [IAB Workshop Report: Post-Quantum Authentication — Lessons from Prague (IETF Blog, Nov 2026)](https://www.ietf.org/blog/iab-pq-workshop-impressions/)
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
