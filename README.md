@@ -19,10 +19,10 @@ The main objectives of this repository are:
 Here are the direct links to the latest study sheets and news digests:
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
-- **English (EN):** [Day 59 - Empirical Analysis of Global PQC Adoption in SSH Infrastructure: SNTRUP761 vs. ML-KEM (2026-11-17)](en/2026-11-17-pqc_ssh_global_adoption_empirical.pdf)
-- **Português (PT-BR):** [Dia 59 - Análise Empírica da Adoção Global de PQC na Infraestrutura SSH: SNTRUP761 vs. ML-KEM (2026-11-17)](pt-BR/2026-11-17-pqc_ssh_global_adoption_empirical.pdf)
-- **English (EN):** [Day 59 - Empirical Analysis of Global PQC Adoption in SSH Infrastructure: SNTRUP761 vs. ML-KEM (2026-11-17)](en/2026-11-17-pqc_ssh_global_adoption_empirical.pdf)
-- **Português (PT-BR):** [Dia 59 - Análise Empírica da Adoção Global de PQC na Infraestrutura SSH: SNTRUP761 vs. ML-KEM (2026-11-17)](pt-BR/2026-11-17-pqc_ssh_global_adoption_empirical.pdf)
+- **English (EN):** [Day 60 - Post-Quantum TLS Beyond HTTPS: Multi-Protocol Empirical Telemetry (LDAPS, SMTPS, IMAPS, RDP) and the CDN Concentration Paradox (2026-11-18)](en/2026-11-18-pqc_tls_multi_protocol_empirical.pdf)
+- **Português (PT-BR):** [Dia 60 - TLS Pós-Quântico Além do HTTPS: Telemetria Empírica Multiprotocolo (LDAPS, SMTPS, IMAPS, RDP) e o Paradoxo da Concentração em CDNs (2026-11-18)](pt-BR/2026-11-18-pqc_tls_multi_protocol_empirical.pdf)
+- **English (EN):** [Day 60 - Post-Quantum TLS Beyond HTTPS: Multi-Protocol Empirical Telemetry (LDAPS, SMTPS, IMAPS, RDP) and the CDN Concentration Paradox (2026-11-18)](en/2026-11-18-pqc_tls_multi_protocol_empirical.pdf)
+- **Português (PT-BR):** [Dia 60 - TLS Pós-Quântico Além do HTTPS: Telemetria Empírica Multiprotocolo (LDAPS, SMTPS, IMAPS, RDP) e o Paradoxo da Concentração em CDNs (2026-11-18)](pt-BR/2026-11-18-pqc_tls_multi_protocol_empirical.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -193,6 +193,11 @@ N/A
 * [ArXiv Preprint: Empirical Study of Post-Quantum Cryptography Adoption Status in SSH Infrastructure (Haque et al., Bitsight Technologies, Nov 2026)](https://arxiv.org/html/2611.09703v1)
 * [OpenSSH Post-Quantum Cryptography Specifications & ML-KEM Integration](https://www.openssh.org/pq.html)
 * [IAB Workshop Report: Post-Quantum Authentication — Lessons from Prague (IETF Blog, Nov 2026)](https://www.ietf.org/blog/iab-pq-workshop-impressions/)
+
+### Daily Tracking News & Resources (2026-11-18)
+- [Empirical Assessment of Post-Quantum Cryptography Adoption Status in TLS (Haque et al., Bitsight Technologies, arXiv:2611.09707v1, Nov 2026)](https://arxiv.org/html/2611.09707v1)
+- [Post-Quantum TLS Finished the Easy Half (Communications of the ACM / ACM IMC 2026 Study by Wickramasinghe et al.)](https://cacm.acm.org/news/post-quantum-tls-finished-the-easy-half)
+- [Post-Quantum Cryptography Beyond TLS: Remain Quantum Safe (Akamai Security Research)](https://akamai.com/blog/security/post-quantum-cryptography-beyond-tls)
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
