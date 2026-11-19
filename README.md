@@ -19,10 +19,10 @@ The main objectives of this repository are:
 Here are the direct links to the latest study sheets and news digests:
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
-- **English (EN):** [Day 60 - Post-Quantum TLS Beyond HTTPS: Multi-Protocol Empirical Telemetry (LDAPS, SMTPS, IMAPS, RDP) and the CDN Concentration Paradox (2026-11-18)](en/2026-11-18-pqc_tls_multi_protocol_empirical.pdf)
-- **Português (PT-BR):** [Dia 60 - TLS Pós-Quântico Além do HTTPS: Telemetria Empírica Multiprotocolo (LDAPS, SMTPS, IMAPS, RDP) e o Paradoxo da Concentração em CDNs (2026-11-18)](pt-BR/2026-11-18-pqc_tls_multi_protocol_empirical.pdf)
-- **English (EN):** [Day 60 - Post-Quantum TLS Beyond HTTPS: Multi-Protocol Empirical Telemetry (LDAPS, SMTPS, IMAPS, RDP) and the CDN Concentration Paradox (2026-11-18)](en/2026-11-18-pqc_tls_multi_protocol_empirical.pdf)
-- **Português (PT-BR):** [Dia 60 - TLS Pós-Quântico Além do HTTPS: Telemetria Empírica Multiprotocolo (LDAPS, SMTPS, IMAPS, RDP) e o Paradoxo da Concentração em CDNs (2026-11-18)](pt-BR/2026-11-18-pqc_tls_multi_protocol_empirical.pdf)
+- **English (EN):** [Day 61 - Post-Quantum Encrypted Authoritative DNS: Transport Cliffs in ADoT/ADoQ and DNSSEC-Anchored Stateless Tickets (Enc53) (2026-11-19)](en/2026-11-19-pqc_authoritative_dns_enc53.pdf)
+- **Português (PT-BR):** [Dia 61 - DNS Autoritativo Criptografado Pós-Quântico: Gargalos de Transporte em ADoT/ADoQ e Tickets Stateless Ancorados em DNSSEC (Enc53) (2026-11-19)](pt-BR/2026-11-19-pqc_authoritative_dns_enc53.pdf)
+- **English (EN):** [Day 61 - Post-Quantum Encrypted Authoritative DNS: Transport Cliffs in ADoT/ADoQ and DNSSEC-Anchored Stateless Tickets (Enc53) (2026-11-19)](en/2026-11-19-pqc_authoritative_dns_enc53.pdf)
+- **Português (PT-BR):** [Dia 61 - DNS Autoritativo Criptografado Pós-Quântico: Gargalos de Transporte em ADoT/ADoQ e Tickets Stateless Ancorados em DNSSEC (Enc53) (2026-11-19)](pt-BR/2026-11-19-pqc_authoritative_dns_enc53.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -198,6 +198,11 @@ N/A
 - [Empirical Assessment of Post-Quantum Cryptography Adoption Status in TLS (Haque et al., Bitsight Technologies, arXiv:2611.09707v1, Nov 2026)](https://arxiv.org/html/2611.09707v1)
 - [Post-Quantum TLS Finished the Easy Half (Communications of the ACM / ACM IMC 2026 Study by Wickramasinghe et al.)](https://cacm.acm.org/news/post-quantum-tls-finished-the-easy-half)
 - [Post-Quantum Cryptography Beyond TLS: Remain Quantum Safe (Akamai Security Research)](https://akamai.com/blog/security/post-quantum-cryptography-beyond-tls)
+
+### Daily Tracking News & Resources (2026-11-19)
+- **arXiv Preprint (cs.CR / cs.NI):** [Enc53: DNSSEC-Anchored Stateless Tickets for Post-Quantum Authoritative DNS (Tran, Muid & Chung, 2026)](https://arxiv.org/abs/2609.14210)
+- **IETF Draft (UTA Working Group):** [Post-Quantum Cryptography Recommendations for TLS-based Applications (draft-ietf-uta-pqc-app-03)](https://datatracker.ietf.org/doc/html/draft-ietf-uta-pqc-app-03)
+- **IETF RFC 9539:** [Unilateral Opportunistic Deployment of Encrypted Recursive-to-Authoritative DNS](https://www.rfc-editor.org/rfc/rfc9539.html)
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
