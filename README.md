@@ -19,10 +19,10 @@ The main objectives of this repository are:
 Here are the direct links to the latest study sheets and news digests:
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
-- **English (EN):** [Day 61 - Post-Quantum Encrypted Authoritative DNS: Transport Cliffs in ADoT/ADoQ and DNSSEC-Anchored Stateless Tickets (Enc53) (2026-11-19)](en/2026-11-19-pqc_authoritative_dns_enc53.pdf)
-- **Português (PT-BR):** [Dia 61 - DNS Autoritativo Criptografado Pós-Quântico: Gargalos de Transporte em ADoT/ADoQ e Tickets Stateless Ancorados em DNSSEC (Enc53) (2026-11-19)](pt-BR/2026-11-19-pqc_authoritative_dns_enc53.pdf)
-- **English (EN):** [Day 61 - Post-Quantum Encrypted Authoritative DNS: Transport Cliffs in ADoT/ADoQ and DNSSEC-Anchored Stateless Tickets (Enc53) (2026-11-19)](en/2026-11-19-pqc_authoritative_dns_enc53.pdf)
-- **Português (PT-BR):** [Dia 61 - DNS Autoritativo Criptografado Pós-Quântico: Gargalos de Transporte em ADoT/ADoQ e Tickets Stateless Ancorados em DNSSEC (Enc53) (2026-11-19)](pt-BR/2026-11-19-pqc_authoritative_dns_enc53.pdf)
+- **English (EN):** [Day 62 - IAB Post-Quantum Authentication Architecture: DTLS Flight Retransmission Collapse, the Classical Trust-Anchor Deletion Paradox, and Symmetric Auth Substitution (2026-11-20)](en/2026-11-20-iab_pqc_authentication_dtls_trust_anchors.pdf)
+- **Português (PT-BR):** [Dia 62 - Arquitetura de Autenticação Pós-Quântica do IAB: Colapso de Retransmissão no DTLS, o Paradoxo da Exclusão de Raízes Clássicas e Substituição por Autenticação Simétrica (2026-11-20)](pt-BR/2026-11-20-iab_pqc_authentication_dtls_trust_anchors.pdf)
+- **English (EN):** [Day 62 - IAB Post-Quantum Authentication Architecture: DTLS Flight Retransmission Collapse, the Classical Trust-Anchor Deletion Paradox, and Symmetric Auth Substitution (2026-11-20)](en/2026-11-20-iab_pqc_authentication_dtls_trust_anchors.pdf)
+- **Português (PT-BR):** [Dia 62 - Arquitetura de Autenticação Pós-Quântica do IAB: Colapso de Retransmissão no DTLS, o Paradoxo da Exclusão de Raízes Clássicas e Substituição por Autenticação Simétrica (2026-11-20)](pt-BR/2026-11-20-iab_pqc_authentication_dtls_trust_anchors.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -203,6 +203,11 @@ N/A
 - **arXiv Preprint (cs.CR / cs.NI):** [Enc53: DNSSEC-Anchored Stateless Tickets for Post-Quantum Authoritative DNS (Tran, Muid & Chung, 2026)](https://arxiv.org/abs/2609.14210)
 - **IETF Draft (UTA Working Group):** [Post-Quantum Cryptography Recommendations for TLS-based Applications (draft-ietf-uta-pqc-app-03)](https://datatracker.ietf.org/doc/html/draft-ietf-uta-pqc-app-03)
 - **IETF RFC 9539:** [Unilateral Opportunistic Deployment of Encrypted Recursive-to-Authoritative DNS](https://www.rfc-editor.org/rfc/rfc9539.html)
+
+### Daily Tracking News & Resources (2026-11-20)
+- [IETF / IAB Blog: Post-Quantum Authentication — Lessons from Prague (Yaroslav Rosomakho & Nick Sullivan, Nov 12, 2026)](https://ietf.org/blog/iab-pq-workshop-impressions)
+- [RFC 9980: Post-Quantum Cryptography in OpenPGP (IETF Standards Track, Composite ML-KEM/ML-DSA & Standalone SLH-DSA)](https://datatracker.ietf.org/doc/html/rfc9980)
+- [CACM / ACM IMC 2026: Post-Quantum TLS Finished the Easy Half (2 Billion Handshakes Telemetry, arXiv:2607.29005)](https://cacm.acm.org/news/post-quantum-tls-finished-the-easy-half)
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
