@@ -19,10 +19,10 @@ The main objectives of this repository are:
 Here are the direct links to the latest study sheets and news digests:
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
-- **English (EN):** [Day 62 - IAB Post-Quantum Authentication Architecture: DTLS Flight Retransmission Collapse, the Classical Trust-Anchor Deletion Paradox, and Symmetric Auth Substitution (2026-11-20)](en/2026-11-20-iab_pqc_authentication_dtls_trust_anchors.pdf)
-- **Português (PT-BR):** [Dia 62 - Arquitetura de Autenticação Pós-Quântica do IAB: Colapso de Retransmissão no DTLS, o Paradoxo da Exclusão de Raízes Clássicas e Substituição por Autenticação Simétrica (2026-11-20)](pt-BR/2026-11-20-iab_pqc_authentication_dtls_trust_anchors.pdf)
-- **English (EN):** [Day 62 - IAB Post-Quantum Authentication Architecture: DTLS Flight Retransmission Collapse, the Classical Trust-Anchor Deletion Paradox, and Symmetric Auth Substitution (2026-11-20)](en/2026-11-20-iab_pqc_authentication_dtls_trust_anchors.pdf)
-- **Português (PT-BR):** [Dia 62 - Arquitetura de Autenticação Pós-Quântica do IAB: Colapso de Retransmissão no DTLS, o Paradoxo da Exclusão de Raízes Clássicas e Substituição por Autenticação Simétrica (2026-11-20)](pt-BR/2026-11-20-iab_pqc_authentication_dtls_trust_anchors.pdf)
+- **English (EN):** [Day 63 - Post-Quantum Asynchronous Messaging & Continuous Key Agreement: Signal's Triple Ratchet, SPQR, and the ML-KEM Braid Protocol (2026-11-21)](en/2026-11-21-pqc_signal_triple_ratchet_spqr_mlkem_braid.pdf)
+- **Português (PT-BR):** [Dia 63 - Mensageria Assíncrona Pós-Quântica e Acordo Contínuo de Chaves: O Triple Ratchet do Signal, SPQR e o Protocolo ML-KEM Braid (2026-11-21)](pt-BR/2026-11-21-pqc_signal_triple_ratchet_spqr_mlkem_braid.pdf)
+- **English (EN):** [Day 63 - Post-Quantum Asynchronous Messaging & Continuous Key Agreement: Signal's Triple Ratchet, SPQR, and the ML-KEM Braid Protocol (2026-11-21)](en/2026-11-21-pqc_signal_triple_ratchet_spqr_mlkem_braid.pdf)
+- **Português (PT-BR):** [Dia 63 - Mensageria Assíncrona Pós-Quântica e Acordo Contínuo de Chaves: O Triple Ratchet do Signal, SPQR e o Protocolo ML-KEM Braid (2026-11-21)](pt-BR/2026-11-21-pqc_signal_triple_ratchet_spqr_mlkem_braid.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -208,6 +208,12 @@ N/A
 - [IETF / IAB Blog: Post-Quantum Authentication — Lessons from Prague (Yaroslav Rosomakho & Nick Sullivan, Nov 12, 2026)](https://ietf.org/blog/iab-pq-workshop-impressions)
 - [RFC 9980: Post-Quantum Cryptography in OpenPGP (IETF Standards Track, Composite ML-KEM/ML-DSA & Standalone SLH-DSA)](https://datatracker.ietf.org/doc/html/rfc9980)
 - [CACM / ACM IMC 2026: Post-Quantum TLS Finished the Easy Half (2 Billion Handshakes Telemetry, arXiv:2607.29005)](https://cacm.acm.org/news/post-quantum-tls-finished-the-easy-half)
+
+### Daily Tracking News & Resources (2026-11-21)
+- [Signal Official Blog: Signal Protocol and Post-Quantum Ratchets (SPQR & Triple Ratchet)](https://signal.org/blog/spqr/)
+- [Signal Technical Specification: The ML-KEM Braid Protocol (Rolfe Schmidt, Rev 1)](https://signal.org/docs/specifications/mlkembraid/)
+- [Eurocrypt 2025 / IACR ePrint 2025/078: Migrating Protocols to the Post-Quantum Setting: The Case of Signal's Double Ratchet](https://eprint.iacr.org/2025/078)
+- [arXiv:2603.28728: Study of Post Quantum Status of Widely Used Protocols (TLS, IPsec, BGP, DNSSEC, SSH, QUIC, OIDC, OpenVPN, Signal)](https://arxiv.org/pdf/2603.28728)
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
