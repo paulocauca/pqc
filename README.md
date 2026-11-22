@@ -19,10 +19,10 @@ The main objectives of this repository are:
 Here are the direct links to the latest study sheets and news digests:
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
-- **English (EN):** [Day 63 - Post-Quantum Asynchronous Messaging & Continuous Key Agreement: Signal's Triple Ratchet, SPQR, and the ML-KEM Braid Protocol (2026-11-21)](en/2026-11-21-pqc_signal_triple_ratchet_spqr_mlkem_braid.pdf)
-- **Português (PT-BR):** [Dia 63 - Mensageria Assíncrona Pós-Quântica e Acordo Contínuo de Chaves: O Triple Ratchet do Signal, SPQR e o Protocolo ML-KEM Braid (2026-11-21)](pt-BR/2026-11-21-pqc_signal_triple_ratchet_spqr_mlkem_braid.pdf)
-- **English (EN):** [Day 63 - Post-Quantum Asynchronous Messaging & Continuous Key Agreement: Signal's Triple Ratchet, SPQR, and the ML-KEM Braid Protocol (2026-11-21)](en/2026-11-21-pqc_signal_triple_ratchet_spqr_mlkem_braid.pdf)
-- **Português (PT-BR):** [Dia 63 - Mensageria Assíncrona Pós-Quântica e Acordo Contínuo de Chaves: O Triple Ratchet do Signal, SPQR e o Protocolo ML-KEM Braid (2026-11-21)](pt-BR/2026-11-21-pqc_signal_triple_ratchet_spqr_mlkem_braid.pdf)
+- **English (EN):** [Day 64 - Post-Quantum Enterprise & Wireless Access (802.1X & EAP-TLS/PEAP/TEAP): RADIUS Round-Trip Collapse, Inner-Tunnel HNDL Risks, and EST Certificate Pre-Fetching (2026-11-22)](en/2026-11-22-pqc_eap_tls_8021x_est_prefetching.pdf)
+- **Português (PT-BR):** [Dia 64 - Acesso Corporativo e Wi-Fi Pós-Quântico (802.1X e EAP-TLS/PEAP/TEAP): Colapso de Round-Trips no RADIUS, Riscos HNDL em Túneis Internos e Pré-Busca de Certificados via EST (2026-11-22)](pt-BR/2026-11-22-pqc_eap_tls_8021x_est_prefetching.pdf)
+- **English (EN):** [Day 64 - Post-Quantum Enterprise & Wireless Access (802.1X & EAP-TLS/PEAP/TEAP): RADIUS Round-Trip Collapse, Inner-Tunnel HNDL Risks, and EST Certificate Pre-Fetching (2026-11-22)](en/2026-11-22-pqc_eap_tls_8021x_est_prefetching.pdf)
+- **Português (PT-BR):** [Dia 64 - Acesso Corporativo e Wi-Fi Pós-Quântico (802.1X e EAP-TLS/PEAP/TEAP): Colapso de Round-Trips no RADIUS, Riscos HNDL em Túneis Internos e Pré-Busca de Certificados via EST (2026-11-22)](pt-BR/2026-11-22-pqc_eap_tls_8021x_est_prefetching.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -214,6 +214,12 @@ N/A
 - [Signal Technical Specification: The ML-KEM Braid Protocol (Rolfe Schmidt, Rev 1)](https://signal.org/docs/specifications/mlkembraid/)
 - [Eurocrypt 2025 / IACR ePrint 2025/078: Migrating Protocols to the Post-Quantum Setting: The Case of Signal's Double Ratchet](https://eprint.iacr.org/2025/078)
 - [arXiv:2603.28728: Study of Post Quantum Status of Widely Used Protocols (TLS, IPsec, BGP, DNSSEC, SSH, QUIC, OIDC, OpenVPN, Signal)](https://arxiv.org/pdf/2603.28728)
+
+### Daily Tracking News & Resources (2026-11-22)
+- [IETF EMU Working Group: Post-Quantum Enhancements to TLS-Based EAP Methods (draft-ietf-emu-pqc-eap-tls-03, Oct 2026)](https://datatracker.ietf.org/doc/draft-ietf-emu-pqc-eap-tls/)
+- [IETF RFC 9191: Handling Large Certificates and Long Certificate Chains in TLS-Based EAP Methods](https://www.rfc-editor.org/rfc/rfc9191)
+- [IETF RFC 9190: EAP-TLS 1.3: Using the Extensible Authentication Protocol with TLS 1.3](https://www.rfc-editor.org/rfc/rfc9190)
+- [IETF RFC 9930: Tunnel Extensible Authentication Protocol (TEAP) Version 1 (Feb 2026)](https://www.rfc-editor.org/rfc/rfc9930)
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
