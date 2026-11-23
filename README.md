@@ -19,10 +19,10 @@ The main objectives of this repository are:
 Here are the direct links to the latest study sheets and news digests:
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
-- **English (EN):** [Day 64 - Post-Quantum Enterprise & Wireless Access (802.1X & EAP-TLS/PEAP/TEAP): RADIUS Round-Trip Collapse, Inner-Tunnel HNDL Risks, and EST Certificate Pre-Fetching (2026-11-22)](en/2026-11-22-pqc_eap_tls_8021x_est_prefetching.pdf)
-- **Português (PT-BR):** [Dia 64 - Acesso Corporativo e Wi-Fi Pós-Quântico (802.1X e EAP-TLS/PEAP/TEAP): Colapso de Round-Trips no RADIUS, Riscos HNDL em Túneis Internos e Pré-Busca de Certificados via EST (2026-11-22)](pt-BR/2026-11-22-pqc_eap_tls_8021x_est_prefetching.pdf)
-- **English (EN):** [Day 64 - Post-Quantum Enterprise & Wireless Access (802.1X & EAP-TLS/PEAP/TEAP): RADIUS Round-Trip Collapse, Inner-Tunnel HNDL Risks, and EST Certificate Pre-Fetching (2026-11-22)](en/2026-11-22-pqc_eap_tls_8021x_est_prefetching.pdf)
-- **Português (PT-BR):** [Dia 64 - Acesso Corporativo e Wi-Fi Pós-Quântico (802.1X e EAP-TLS/PEAP/TEAP): Colapso de Round-Trips no RADIUS, Riscos HNDL em Túneis Internos e Pré-Busca de Certificados via EST (2026-11-22)](pt-BR/2026-11-22-pqc_eap_tls_8021x_est_prefetching.pdf)
+- **English (EN):** [Day 65 - Post-Quantum Inter-Domain Routing & Carrier Control Planes: BGPsec Path-Signature Collapse, pqRPKI Merkle Tree Ladders, and SRv6 Attestation (2026-11-23)](en/2026-11-23-pqc_bgpsec_pqrpki_carrier_routing.pdf)
+- **Português (PT-BR):** [Dia 65 - Roteamento Interdomínio e Planos de Controle Pós-Quânticos: Colapso de Assinaturas no BGPsec, Merkle Tree Ladders no pqRPKI e Atestação SRv6 (2026-11-23)](pt-BR/2026-11-23-pqc_bgpsec_pqrpki_carrier_routing.pdf)
+- **English (EN):** [Day 65 - Post-Quantum Inter-Domain Routing & Carrier Control Planes: BGPsec Path-Signature Collapse, pqRPKI Merkle Tree Ladders, and SRv6 Attestation (2026-11-23)](en/2026-11-23-pqc_bgpsec_pqrpki_carrier_routing.pdf)
+- **Português (PT-BR):** [Dia 65 - Roteamento Interdomínio e Planos de Controle Pós-Quânticos: Colapso de Assinaturas no BGPsec, Merkle Tree Ladders no pqRPKI e Atestação SRv6 (2026-11-23)](pt-BR/2026-11-23-pqc_bgpsec_pqrpki_carrier_routing.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -220,6 +220,12 @@ N/A
 - [IETF RFC 9191: Handling Large Certificates and Long Certificate Chains in TLS-Based EAP Methods](https://www.rfc-editor.org/rfc/rfc9191)
 - [IETF RFC 9190: EAP-TLS 1.3: Using the Extensible Authentication Protocol with TLS 1.3](https://www.rfc-editor.org/rfc/rfc9190)
 - [IETF RFC 9930: Tunnel Extensible Authentication Protocol (TEAP) Version 1 (Feb 2026)](https://www.rfc-editor.org/rfc/rfc9930)
+
+### Daily Tracking News & Resources (2026-11-23)
+- [ACM HotNets '26 (ETH Zürich): Routing Security in the Post-Quantum Future (Nov 2026)](https://netsec.ethz.ch/publications/papers/2026_hotnets_routing.pdf)
+- [arXiv:2603.06968: pqRPKI: A Practical RPKI Architecture for the Post-Quantum Era (2026)](https://arxiv.org/html/2603.06968)
+- [IAB Post-Quantum Authentication Workshop (Cisco CX): Post-Quantum Authentication for BGPsec/RPKI, SRv6, and Agentic AI NetOps in Carrier Networks (Oct 2026)](https://www.ietf.org/slides/slides-pqws-s29-01.pdf)
+- [IETF SIDROPS WG: Post-Quantum Signature Algorithm Profile and Migration Considerations for the RPKI (draft-yoshikawa-sidrops-pqc-rpki)](https://datatracker.ietf.org/doc/draft-yoshikawa-sidrops-pqc-rpki/)
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
