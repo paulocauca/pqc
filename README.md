@@ -19,10 +19,10 @@ The main objectives of this repository are:
 Here are the direct links to the latest study sheets and news digests:
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
-- **English (EN):** [Day 65 - Post-Quantum Inter-Domain Routing & Carrier Control Planes: BGPsec Path-Signature Collapse, pqRPKI Merkle Tree Ladders, and SRv6 Attestation (2026-11-23)](en/2026-11-23-pqc_bgpsec_pqrpki_carrier_routing.pdf)
-- **Português (PT-BR):** [Dia 65 - Roteamento Interdomínio e Planos de Controle Pós-Quânticos: Colapso de Assinaturas no BGPsec, Merkle Tree Ladders no pqRPKI e Atestação SRv6 (2026-11-23)](pt-BR/2026-11-23-pqc_bgpsec_pqrpki_carrier_routing.pdf)
-- **English (EN):** [Day 65 - Post-Quantum Inter-Domain Routing & Carrier Control Planes: BGPsec Path-Signature Collapse, pqRPKI Merkle Tree Ladders, and SRv6 Attestation (2026-11-23)](en/2026-11-23-pqc_bgpsec_pqrpki_carrier_routing.pdf)
-- **Português (PT-BR):** [Dia 65 - Roteamento Interdomínio e Planos de Controle Pós-Quânticos: Colapso de Assinaturas no BGPsec, Merkle Tree Ladders no pqRPKI e Atestação SRv6 (2026-11-23)](pt-BR/2026-11-23-pqc_bgpsec_pqrpki_carrier_routing.pdf)
+- **English (EN):** [Day 66 - Post-Quantum Zero Trust, Inline TLS 1.3 Inspection & Service Mesh mTLS: RFC 10024 Key-Share Ordering, Single-Packet ML-KEM-512 Hybrids, and Brownfield 5G SBI (2026-11-24)](en/2026-11-24-pqc_zero_trust_tls_inspection_service_mesh.pdf)
+- **Português (PT-BR):** [Dia 66 - Zero Trust Pós-Quântico, Inspeção Inline TLS 1.3 e Service Mesh mTLS: Ordenação de Key-Share na RFC 10024, Híbridos ML-KEM-512 em Pacote Único e 5G SBI Brownfield (2026-11-24)](pt-BR/2026-11-24-pqc_zero_trust_tls_inspection_service_mesh.pdf)
+- **English (EN):** [Day 66 - Post-Quantum Zero Trust, Inline TLS 1.3 Inspection & Service Mesh mTLS: RFC 10024 Key-Share Ordering, Single-Packet ML-KEM-512 Hybrids, and Brownfield 5G SBI (2026-11-24)](en/2026-11-24-pqc_zero_trust_tls_inspection_service_mesh.pdf)
+- **Português (PT-BR):** [Dia 66 - Zero Trust Pós-Quântico, Inspeção Inline TLS 1.3 e Service Mesh mTLS: Ordenação de Key-Share na RFC 10024, Híbridos ML-KEM-512 em Pacote Único e 5G SBI Brownfield (2026-11-24)](pt-BR/2026-11-24-pqc_zero_trust_tls_inspection_service_mesh.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -226,6 +226,13 @@ N/A
 - [arXiv:2603.06968: pqRPKI: A Practical RPKI Architecture for the Post-Quantum Era (2026)](https://arxiv.org/html/2603.06968)
 - [IAB Post-Quantum Authentication Workshop (Cisco CX): Post-Quantum Authentication for BGPsec/RPKI, SRv6, and Agentic AI NetOps in Carrier Networks (Oct 2026)](https://www.ietf.org/slides/slides-pqws-s29-01.pdf)
 - [IETF SIDROPS WG: Post-Quantum Signature Algorithm Profile and Migration Considerations for the RPKI (draft-yoshikawa-sidrops-pqc-rpki)](https://datatracker.ietf.org/doc/draft-yoshikawa-sidrops-pqc-rpki/)
+
+### Daily Tracking News & Resources (2026-11-24)
+- [IETF RFC 10024: Post-Quantum Traditional (PQ/T) Hybrid Key Agreement Mechanisms for TLS 1.3 (Aug 2026)](https://datatracker.ietf.org/doc/html/rfc10024)
+- [IETF Draft (draft-rosomakho-tls-ecdhe-mlkem512-01): Post-quantum hybrid ECDHE-MLKEM512 Key Agreement for TLSv1.3 (Nov 2026)](https://datatracker.ietf.org/doc/html/draft-rosomakho-tls-ecdhe-mlkem512-01)
+- [Zscaler Architecture Series: Future-Proofing Enterprise Traffic — How to Govern and Inspect Post-Quantum TLS 1.3 (Nov 12, 2026)](https://www.zscaler.com/blogs/product-insights/future-proofing-enterprise-traffic-how-govern-and-inspect-post-quantum)
+- [Red Hat Security: 2026 Update — The Road to Quantum-Safe Cryptography in Red Hat OpenShift & Service Mesh (Sep 2026)](https://www.redhat.com/en/blog/road-to-quantum-safe-cryptography-red-hat-openshift)
+- [arXiv:2611.27735: Post-Quantum Migration in Brownfield 5G Core Networks: Verified Hybrid Key Establishment, Performance, and Rollback (Nov 2026)](https://arxiv.org/html/2611.27735)
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
