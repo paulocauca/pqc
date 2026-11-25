@@ -19,10 +19,10 @@ The main objectives of this repository are:
 Here are the direct links to the latest study sheets and news digests:
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
-- **English (EN):** [Day 66 - Post-Quantum Zero Trust, Inline TLS 1.3 Inspection & Service Mesh mTLS: RFC 10024 Key-Share Ordering, Single-Packet ML-KEM-512 Hybrids, and Brownfield 5G SBI (2026-11-24)](en/2026-11-24-pqc_zero_trust_tls_inspection_service_mesh.pdf)
-- **Português (PT-BR):** [Dia 66 - Zero Trust Pós-Quântico, Inspeção Inline TLS 1.3 e Service Mesh mTLS: Ordenação de Key-Share na RFC 10024, Híbridos ML-KEM-512 em Pacote Único e 5G SBI Brownfield (2026-11-24)](pt-BR/2026-11-24-pqc_zero_trust_tls_inspection_service_mesh.pdf)
-- **English (EN):** [Day 66 - Post-Quantum Zero Trust, Inline TLS 1.3 Inspection & Service Mesh mTLS: RFC 10024 Key-Share Ordering, Single-Packet ML-KEM-512 Hybrids, and Brownfield 5G SBI (2026-11-24)](en/2026-11-24-pqc_zero_trust_tls_inspection_service_mesh.pdf)
-- **Português (PT-BR):** [Dia 66 - Zero Trust Pós-Quântico, Inspeção Inline TLS 1.3 e Service Mesh mTLS: Ordenação de Key-Share na RFC 10024, Híbridos ML-KEM-512 em Pacote Único e 5G SBI Brownfield (2026-11-24)](pt-BR/2026-11-24-pqc_zero_trust_tls_inspection_service_mesh.pdf)
+- **English (EN):** [Day 67 - Post-Quantum Data-at-Rest & Asynchronous Object Security (OpenPGP RFC 9980 & CMS/S/MIME RFC 9936 / RFC 10073): X-Wing Key Combiners, KEMRecipientInfo, and v4/v6 Key Migration (2026-11-25)](en/2026-11-25-pqc_openpgp_rfc9980_cms_rfc9936_object_security.pdf)
+- **Português (PT-BR):** [Dia 67 - Segurança Pós-Quântica de Dados em Repouso e Objetos Assíncronos (OpenPGP RFC 9980 e CMS/S/MIME RFC 9936 / RFC 10073): Combinadores X-Wing, KEMRecipientInfo e Migração de Chaves v4/v6 (2026-11-25)](pt-BR/2026-11-25-pqc_openpgp_rfc9980_cms_rfc9936_object_security.pdf)
+- **English (EN):** [Day 67 - Post-Quantum Data-at-Rest & Asynchronous Object Security (OpenPGP RFC 9980 & CMS/S/MIME RFC 9936 / RFC 10073): X-Wing Key Combiners, KEMRecipientInfo, and v4/v6 Key Migration (2026-11-25)](en/2026-11-25-pqc_openpgp_rfc9980_cms_rfc9936_object_security.pdf)
+- **Português (PT-BR):** [Dia 67 - Segurança Pós-Quântica de Dados em Repouso e Objetos Assíncronos (OpenPGP RFC 9980 e CMS/S/MIME RFC 9936 / RFC 10073): Combinadores X-Wing, KEMRecipientInfo e Migração de Chaves v4/v6 (2026-11-25)](pt-BR/2026-11-25-pqc_openpgp_rfc9980_cms_rfc9936_object_security.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -233,6 +233,12 @@ N/A
 - [Zscaler Architecture Series: Future-Proofing Enterprise Traffic — How to Govern and Inspect Post-Quantum TLS 1.3 (Nov 12, 2026)](https://www.zscaler.com/blogs/product-insights/future-proofing-enterprise-traffic-how-govern-and-inspect-post-quantum)
 - [Red Hat Security: 2026 Update — The Road to Quantum-Safe Cryptography in Red Hat OpenShift & Service Mesh (Sep 2026)](https://www.redhat.com/en/blog/road-to-quantum-safe-cryptography-red-hat-openshift)
 - [arXiv:2611.27735: Post-Quantum Migration in Brownfield 5G Core Networks: Verified Hybrid Key Establishment, Performance, and Rollback (Nov 2026)](https://arxiv.org/html/2611.27735)
+
+### Daily Tracking News & Resources (2026-11-25)
+- [IETF RFC 9980: Post-Quantum Cryptography in OpenPGP (June 2026)](https://www.rfc-editor.org/info/rfc9980)
+- [IETF RFC 9936: Use of ML-KEM in the Cryptographic Message Syntax (CMS) (March 2026)](https://www.rfc-editor.org/info/rfc9936)
+- [IETF RFC 10073: Composite ML-DSA for Use in X.509 Public Key Infrastructure and CMS (November 2026)](https://datatracker.ietf.org/doc/draft-ietf-lamps-pq-composite-sigs/)
+- [IETF RFC 9882: Use of the ML-DSA Signature Algorithm in the Cryptographic Message Syntax (CMS)](https://www.rfc-editor.org/rfc/rfc9882)
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
