@@ -19,10 +19,10 @@ The main objectives of this repository are:
 Here are the direct links to the latest study sheets and news digests:
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
-- **English (EN):** [Day 67 - Post-Quantum Data-at-Rest & Asynchronous Object Security (OpenPGP RFC 9980 & CMS/S/MIME RFC 9936 / RFC 10073): X-Wing Key Combiners, KEMRecipientInfo, and v4/v6 Key Migration (2026-11-25)](en/2026-11-25-pqc_openpgp_rfc9980_cms_rfc9936_object_security.pdf)
-- **Português (PT-BR):** [Dia 67 - Segurança Pós-Quântica de Dados em Repouso e Objetos Assíncronos (OpenPGP RFC 9980 e CMS/S/MIME RFC 9936 / RFC 10073): Combinadores X-Wing, KEMRecipientInfo e Migração de Chaves v4/v6 (2026-11-25)](pt-BR/2026-11-25-pqc_openpgp_rfc9980_cms_rfc9936_object_security.pdf)
-- **English (EN):** [Day 67 - Post-Quantum Data-at-Rest & Asynchronous Object Security (OpenPGP RFC 9980 & CMS/S/MIME RFC 9936 / RFC 10073): X-Wing Key Combiners, KEMRecipientInfo, and v4/v6 Key Migration (2026-11-25)](en/2026-11-25-pqc_openpgp_rfc9980_cms_rfc9936_object_security.pdf)
-- **Português (PT-BR):** [Dia 67 - Segurança Pós-Quântica de Dados em Repouso e Objetos Assíncronos (OpenPGP RFC 9980 e CMS/S/MIME RFC 9936 / RFC 10073): Combinadores X-Wing, KEMRecipientInfo e Migração de Chaves v4/v6 (2026-11-25)](pt-BR/2026-11-25-pqc_openpgp_rfc9980_cms_rfc9936_object_security.pdf)
+- **English (EN):** [Day 68 - Post-Quantum Kerberos v5 Authentication (PKINIT-PQC): ML-KEM Reply-Key Encapsulation, Authenticated HKDF-SHA-512 Contexts, and Mandatory TCP Transport (2026-11-26)](en/2026-11-26-pqc_kerberos_pkinit_mlkem_authentication.pdf)
+- **Português (PT-BR):** [Dia 68 - Autenticação Kerberos v5 Pós-Quântica (PKINIT-PQC): Encapsulamento de Reply-Key com ML-KEM, Contextos HKDF-SHA-512 Autenticados e Transporte TCP Obrigatório (2026-11-26)](pt-BR/2026-11-26-pqc_kerberos_pkinit_mlkem_authentication.pdf)
+- **English (EN):** [Day 68 - Post-Quantum Kerberos v5 Authentication (PKINIT-PQC): ML-KEM Reply-Key Encapsulation, Authenticated HKDF-SHA-512 Contexts, and Mandatory TCP Transport (2026-11-26)](en/2026-11-26-pqc_kerberos_pkinit_mlkem_authentication.pdf)
+- **Português (PT-BR):** [Dia 68 - Autenticação Kerberos v5 Pós-Quântica (PKINIT-PQC): Encapsulamento de Reply-Key com ML-KEM, Contextos HKDF-SHA-512 Autenticados e Transporte TCP Obrigatório (2026-11-26)](pt-BR/2026-11-26-pqc_kerberos_pkinit_mlkem_authentication.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -239,6 +239,12 @@ N/A
 - [IETF RFC 9936: Use of ML-KEM in the Cryptographic Message Syntax (CMS) (March 2026)](https://www.rfc-editor.org/info/rfc9936)
 - [IETF RFC 10073: Composite ML-DSA for Use in X.509 Public Key Infrastructure and CMS (November 2026)](https://datatracker.ietf.org/doc/draft-ietf-lamps-pq-composite-sigs/)
 - [IETF RFC 9882: Use of the ML-DSA Signature Algorithm in the Cryptographic Message Syntax (CMS)](https://www.rfc-editor.org/rfc/rfc9882)
+
+### Daily Tracking News & Resources (2026-11-26)
+- [IETF KITTEN WG Draft: Post-quantum Key Encapsulation with ML-KEM in Public Key Cryptography for Initial Authentication in Kerberos (PKINIT) (draft-bokovoy-kitten-pkinit-pqc-01)](https://datatracker.ietf.org/doc/draft-bokovoy-kitten-pkinit-pqc/)
+- [RFC 9935: Internet X.509 Public Key Infrastructure - Algorithm Identifiers for ML-KEM](https://www.rfc-editor.org/rfc/rfc9935)
+- [RFC 9882: Use of the ML-DSA Signature Algorithm in the Cryptographic Message Syntax (CMS)](https://www.rfc-editor.org/rfc/rfc9882)
+- [Red Hat / Fedora COPR: Experimental Kerberos v5 (krb5) Post-Quantum PKINIT Packages](https://copr.fedorainfracloud.org/coprs/jrische/krb5-pqc/)
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
