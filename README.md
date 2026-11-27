@@ -19,10 +19,10 @@ The main objectives of this repository are:
 Here are the direct links to the latest study sheets and news digests:
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
-- **English (EN):** [Day 68 - Post-Quantum Kerberos v5 Authentication (PKINIT-PQC): ML-KEM Reply-Key Encapsulation, Authenticated HKDF-SHA-512 Contexts, and Mandatory TCP Transport (2026-11-26)](en/2026-11-26-pqc_kerberos_pkinit_mlkem_authentication.pdf)
-- **Português (PT-BR):** [Dia 68 - Autenticação Kerberos v5 Pós-Quântica (PKINIT-PQC): Encapsulamento de Reply-Key com ML-KEM, Contextos HKDF-SHA-512 Autenticados e Transporte TCP Obrigatório (2026-11-26)](pt-BR/2026-11-26-pqc_kerberos_pkinit_mlkem_authentication.pdf)
-- **English (EN):** [Day 68 - Post-Quantum Kerberos v5 Authentication (PKINIT-PQC): ML-KEM Reply-Key Encapsulation, Authenticated HKDF-SHA-512 Contexts, and Mandatory TCP Transport (2026-11-26)](en/2026-11-26-pqc_kerberos_pkinit_mlkem_authentication.pdf)
-- **Português (PT-BR):** [Dia 68 - Autenticação Kerberos v5 Pós-Quântica (PKINIT-PQC): Encapsulamento de Reply-Key com ML-KEM, Contextos HKDF-SHA-512 Autenticados e Transporte TCP Obrigatório (2026-11-26)](pt-BR/2026-11-26-pqc_kerberos_pkinit_mlkem_authentication.pdf)
+- **English (EN):** [Day 69 - Post-Quantum WebPKI & Merkle Tree Certificates (IETF PLANTS WG draft-ietf-plants-merkle-tree-certs-08): Issue-by-Logging, Subtree Cosignatures, and Signatureless Landmark-Relative X.509 (2026-11-27)](en/2026-11-27-pqc_webpki_merkle_tree_certificates_plants_wg.pdf)
+- **Português (PT-BR):** [Dia 69 - WebPKI Pós-Quântica e Merkle Tree Certificates (IETF PLANTS WG draft-ietf-plants-merkle-tree-certs-08): Emissão por Logging, Cossinaturas de Subárvores e Certificados X.509 Landmark-Relative sem Assinaturas (2026-11-27)](pt-BR/2026-11-27-pqc_webpki_merkle_tree_certificates_plants_wg.pdf)
+- **English (EN):** [Day 69 - Post-Quantum WebPKI & Merkle Tree Certificates (IETF PLANTS WG draft-ietf-plants-merkle-tree-certs-08): Issue-by-Logging, Subtree Cosignatures, and Signatureless Landmark-Relative X.509 (2026-11-27)](en/2026-11-27-pqc_webpki_merkle_tree_certificates_plants_wg.pdf)
+- **Português (PT-BR):** [Dia 69 - WebPKI Pós-Quântica e Merkle Tree Certificates (IETF PLANTS WG draft-ietf-plants-merkle-tree-certs-08): Emissão por Logging, Cossinaturas de Subárvores e Certificados X.509 Landmark-Relative sem Assinaturas (2026-11-27)](pt-BR/2026-11-27-pqc_webpki_merkle_tree_certificates_plants_wg.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -245,6 +245,12 @@ N/A
 - [RFC 9935: Internet X.509 Public Key Infrastructure - Algorithm Identifiers for ML-KEM](https://www.rfc-editor.org/rfc/rfc9935)
 - [RFC 9882: Use of the ML-DSA Signature Algorithm in the Cryptographic Message Syntax (CMS)](https://www.rfc-editor.org/rfc/rfc9882)
 - [Red Hat / Fedora COPR: Experimental Kerberos v5 (krb5) Post-Quantum PKINIT Packages](https://copr.fedorainfracloud.org/coprs/jrische/krb5-pqc/)
+
+### Daily Tracking News & Resources (2026-11-27)
+- [IETF PLANTS WG: Merkle Tree Certificates (draft-ietf-plants-merkle-tree-certs-08, Nov 2026)](https://datatracker.ietf.org/doc/draft-ietf-plants-merkle-tree-certs/)
+- [IETF PLANTS WG: Architecture and Guarantees for Merkle Tree Certificates (draft-sanketh-plants-mtc-architecture-00, Nov 2026)](https://datatracker.ietf.org/doc/html/draft-sanketh-plants-mtc-architecture-00)
+- [Cloudflare Research: Building a Post-Quantum Certificate Authority with Merkle Tree Certificates (Sep 2026)](https://blog.cloudflare.com/pq-ca-with-mtcs/)
+- [Let's Encrypt Engineering: A Post-Quantum Future for Let's Encrypt with Merkle Tree Certificates (2026)](https://letsencrypt.org/2026/06/03/pq-certs)
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
