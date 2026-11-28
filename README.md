@@ -19,10 +19,10 @@ The main objectives of this repository are:
 Here are the direct links to the latest study sheets and news digests:
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
-- **English (EN):** [Day 69 - Post-Quantum WebPKI & Merkle Tree Certificates (IETF PLANTS WG draft-ietf-plants-merkle-tree-certs-08): Issue-by-Logging, Subtree Cosignatures, and Signatureless Landmark-Relative X.509 (2026-11-27)](en/2026-11-27-pqc_webpki_merkle_tree_certificates_plants_wg.pdf)
-- **Português (PT-BR):** [Dia 69 - WebPKI Pós-Quântica e Merkle Tree Certificates (IETF PLANTS WG draft-ietf-plants-merkle-tree-certs-08): Emissão por Logging, Cossinaturas de Subárvores e Certificados X.509 Landmark-Relative sem Assinaturas (2026-11-27)](pt-BR/2026-11-27-pqc_webpki_merkle_tree_certificates_plants_wg.pdf)
-- **English (EN):** [Day 69 - Post-Quantum WebPKI & Merkle Tree Certificates (IETF PLANTS WG draft-ietf-plants-merkle-tree-certs-08): Issue-by-Logging, Subtree Cosignatures, and Signatureless Landmark-Relative X.509 (2026-11-27)](en/2026-11-27-pqc_webpki_merkle_tree_certificates_plants_wg.pdf)
-- **Português (PT-BR):** [Dia 69 - WebPKI Pós-Quântica e Merkle Tree Certificates (IETF PLANTS WG draft-ietf-plants-merkle-tree-certs-08): Emissão por Logging, Cossinaturas de Subárvores e Certificados X.509 Landmark-Relative sem Assinaturas (2026-11-27)](pt-BR/2026-11-27-pqc_webpki_merkle_tree_certificates_plants_wg.pdf)
+- **English (EN):** [Day 70 - Post-Quantum Group Messaging & MLS (IETF draft-ietf-mls-pq-ciphersuites-08 & draft-adyta-mls-pq-00): ML-KEM/ML-DSA Cipher Suites, TreeKEM Hybrid Combiners, and Asynchronous Ratchet Rotation (2026-11-28)](en/2026-11-28-pqc_mls_group_messaging_treekem_ciphersuites.pdf)
+- **Português (PT-BR):** [Dia 70 - Mensageria em Grupo Pós-Quântica e MLS (IETF draft-ietf-mls-pq-ciphersuites-08 e draft-adyta-mls-pq-00): Cipher Suites ML-KEM/ML-DSA, Combinadores Híbridos no TreeKEM e Rotação Assíncrona de Ratchet (2026-11-28)](pt-BR/2026-11-28-pqc_mls_group_messaging_treekem_ciphersuites.pdf)
+- **English (EN):** [Day 70 - Post-Quantum Group Messaging & MLS (IETF draft-ietf-mls-pq-ciphersuites-08 & draft-adyta-mls-pq-00): ML-KEM/ML-DSA Cipher Suites, TreeKEM Hybrid Combiners, and Asynchronous Ratchet Rotation (2026-11-28)](en/2026-11-28-pqc_mls_group_messaging_treekem_ciphersuites.pdf)
+- **Português (PT-BR):** [Dia 70 - Mensageria em Grupo Pós-Quântica e MLS (IETF draft-ietf-mls-pq-ciphersuites-08 e draft-adyta-mls-pq-00): Cipher Suites ML-KEM/ML-DSA, Combinadores Híbridos no TreeKEM e Rotação Assíncrona de Ratchet (2026-11-28)](pt-BR/2026-11-28-pqc_mls_group_messaging_treekem_ciphersuites.pdf)
 
 *To see the full learning progression, view the [Study Timeline](./timeline).*
 
@@ -251,6 +251,12 @@ N/A
 - [IETF PLANTS WG: Architecture and Guarantees for Merkle Tree Certificates (draft-sanketh-plants-mtc-architecture-00, Nov 2026)](https://datatracker.ietf.org/doc/html/draft-sanketh-plants-mtc-architecture-00)
 - [Cloudflare Research: Building a Post-Quantum Certificate Authority with Merkle Tree Certificates (Sep 2026)](https://blog.cloudflare.com/pq-ca-with-mtcs/)
 - [Let's Encrypt Engineering: A Post-Quantum Future for Let's Encrypt with Merkle Tree Certificates (2026)](https://letsencrypt.org/2026/06/03/pq-certs)
+
+### Daily Tracking News & Resources (2026-11-28)
+- [IETF Datatracker: ML-KEM and Hybrid Cipher Suites for Messaging Layer Security (draft-ietf-mls-pq-ciphersuites-08)](https://datatracker.ietf.org/doc/draft-ietf-mls-pq-ciphersuites/08/)
+- [IETF Internet-Draft: A Hybrid Post-Quantum KEM for the Messaging Layer Security (MLS) Protocol (draft-adyta-mls-pq-00)](https://www.ietf.org/archive/id/draft-adyta-mls-pq-00.html)
+- [IACR ePrint 2026/034: Amortized Post-Quantum (APQ) Combiners for Messaging Layer Security (MLS) in OpenMLS](https://eprint.iacr.org/2026/034.pdf)
+- [QuantaKrypto Analysis: IETF Advances Post-Quantum MLS Cipher Suites to Last Call (November 2026)](https://quantakrypto.com/news/2026-11-20/ietf-post-quantum-mls-cipher-suites)
 
 ### NIST PQC Project Links
 *   [NIST Post-Quantum Cryptography Standardization Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
